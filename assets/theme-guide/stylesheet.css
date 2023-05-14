@@ -1,0 +1,300 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #292C30;
+}
+
+/* Scrollbar Style */
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-track {
+    background: #48484f;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #646569;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255,255,255,0.25);;
+}
+
+/*Subtitles above boxes*/
+.h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+  width: 95%;
+  max-width: 900px;
+}
+
+.wrapper {
+  width: calc(100% - 20px);
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Box*/
+.bigbox {
+  background: #2F3439;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  border-radius: 25px;
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  line-height: 1.6;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.03);
+  border-width: 2px;
+}
+
+p {
+  font-size: 12pt;
+}
+
+/*Directory Icon*/
+.directory, .miniDirectory {
+  background-position-y: center;
+  vertical-align: middle;
+  background-image: url("folder.png");
+  background-repeat: no-repeat;
+  min-height: 70px;
+  max-height: 70px;
+  line-height: 70px;
+  min-width: 1px;
+  padding-left: 80px;
+}
+.miniDirectory {
+  min-height: 30px;
+  max-height: 30px;
+  line-height: 30px;
+  padding-left: 50px;
+  background-size: 30px;
+}
+
+/*Directory Expander Seperator*/
+.folderExpander, .miniFolderExpander {
+  border-color: rgba(255,255,255,0.2);
+  border-width: 2.5px;
+  border-left-style: solid;
+  margin-left: 17px;
+  background-position-x: 15px;
+  padding-left: 95px;
+}
+.miniFolderExpander {
+  padding-left: 50px;
+  margin-left: 9px;
+  background-position-x: 8px;
+}
+.miniFolderExpander .miniFolderExpander {
+  padding-left: 20px;
+  margin: 0;
+}
+
+/*Bold Title at top of boxes*/
+.h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*Big Title at the top*/
+#bigtitle {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/*Change Mark Color*/
+mark {
+    background-color: #a4aebc;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/*Code Indent*/
+.codebox {
+  background: #a4aebc;
+  text-align: left;
+  line-height: 1.6;
+  border-radius: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  overflow: auto;
+  width: calc(100% - 30px);
+  position: relative;
+}
+pre {
+    color:black;
+}
+.codeboxDownload {
+  border-top-style: solid;
+  border-color: rgba(255, 255, 255, 0.23);
+  border-width: 4px;
+  background-repeat: no-repeat;
+  background-size: 70px;
+  background-position-x: 20px;
+  background-position-y: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #292C30;
+  min-height: 70px;
+  min-width: calc(100% - 120px);
+  padding: 10px;
+  padding-left: 110px;
+  transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+}
+.codeboxDownload:hover {
+  background-color: #2a90fc;
+}
+.codeboxDownload:hover .downloadFileDescription{
+  color: rgba(255,255,255,.75);
+}
+.codeboxDownload:hover .downloadFileIcon{
+  opacity: 1;
+}
+.fileName {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 16pt;
+  font-weight: bold;
+}
+.downloadFileDescription {
+  color: #2a90fc;
+  margin-top: 0;
+}
+.downloadFileIcon {
+  opacity: .15;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5%;
+}
+
+#importantText {
+    background-color: #D44B3E;
+}
+
+/* unvisited link */
+a:link {
+    color: #87a3ff;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #87a3ff;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: hotpink;
+    text-decoration: none;
+}
+
+/* Button */
+.button {
+  background: linear-gradient(to right, #55B49D , #2B7DCA);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  border-radius: 25px;
+  padding: 10px;
+  color:white;
+  font-size: 20px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+}
+/* Button Hover Effetcs */
+.button:hover {
+  filter: hue-rotate(90deg);
+  font-size: 23px;
+  padding: 8px;
+}
+
+table {
+  text-align: center;
+  width: 100%;
+  border-collapse:collapse;
+  background-color: rgba(255,255,255,.05);
+  font-size: 12pt;
+  border-radius: 15px;
+}
+th {
+  color: black;
+  background-color: #a4aebc;
+  font-size: 14pt;
+}
+td, th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+th:last-child {
+  border-radius: 0 15px 0 0;
+}
+th:first-child {
+  border-radius: 15px 0 0 0;
+}
+tr:last-child td:last-child {
+  border-radius: 0 0 15px 0;
+}
+tr:last-child td:first-child {
+  border-radius: 0 0 0 15px;
+}
+td:first-child {
+  border-color: rgba(255,255,255,.03);
+  border-width: 2px;
+  border-right-style: solid;
+}
+tr:nth-child(even) {
+  background-color: #22262b;
+}
+
+.maskColumn {
+  float: left;
+  padding: 5px;
+}
+
+.maskRow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h3 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 5px;
+}

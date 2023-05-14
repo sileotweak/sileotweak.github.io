@@ -1,0 +1,170 @@
+Package: com.pinpal.nofoldericon
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: PINPAL <pinpal.official@gmail.com>
+Filename: package/NoFolder/NoFolder.deb
+Size: 9326
+MD5sum: da4ae0fc2786565aed362138537841bc
+Section: Themes
+Description: Removes background from folder icons
+Author: PINPAL
+Name: No Folder Icons
+Depends: com.anemonetheming.anemone
+Depiction: https://pinpal.github.io/depiction/?NoFolder
+
+Package: com.pinpal.phertela
+Name: Phertela Widget
+Version: 1.3
+Depends: com.junesiphone.xeninfo, com.matchstic.xenhtml
+Architecture: iphoneos-arm
+Author: PINPAL
+SileoDepiction: https://pinpal.github.io/package/Phertela/SileoDepiction.json
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://pinpal.github.io/package/Phertela/SileoDepiction.json&name=Phertela%20Widget&dev=PINPAL&section=Widgets
+Section: Widgets
+Description: Phertela - Customizable Widget - Clock/Weather/Battery/Wifi/RAM
+Maintainer: PINPAL
+Size: 480276
+MD5sum: ed408d3b8da1e89ce52e494d01f93964
+SHA256: e3e0769b174f43532d9172d572945499d45d31916c0df5aad73bdd15c87fa9fc
+Filename: package/Phertela/Phertela.deb
+
+Package: com.pinpal.graphitiPop
+Name: Graphiti Pop Widget
+Version: 1.4
+Depends: com.junesiphone.xeninfo, com.matchstic.xenhtml
+Architecture: iphoneos-arm
+Author: PINPAL
+SileoDepiction: https://pinpal.github.io/package/GraphitiPop/SileoDepiction.json
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://pinpal.github.io/package/GraphitiPop/SileoDepiction.json&name=Graphiti%20Pop%20Widget&dev=PINPAL&section=Widgets
+Section: Widgets
+Description: GraphitiPop - Customizable Widget
+Maintainer: PINPAL
+Size: 1100736
+MD5sum: ea5e85697d5ce86ab0a094dbe103c973
+SHA256: 80aba440bac37b4d74ec879b61d8fa9b8a9fdaaff11f2395013b70e81cc8bd9e
+Filename: package/GraphitiPop/GraphitiPop.deb
+
+Package: com.pinpal.darkmode
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: PINPAL <pinpal.official@gmail.com>
+Filename: package/DarkMode/DarkMode.deb
+Size: 1340
+MD5sum: cac04ba7185eaad241527702db1dbbc8
+SHA256: 9fa5a09d51d7f835699413f3505508e41149f809e6762c9e92f9abd0919c072b
+Section: Themes
+Description: Dark Mode via Anemone
+Author: PINPAL
+Name: Dark Mode Theme
+Depends: com.anemonetheming.anemone
+Depiction: https://pinpal.github.io/depiction/?DarkMode
+
+Package: com.pinpal.seven4eleven
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: PINPAL <pinpal.official@gmail.com>
+Filename: package/Seven4Eleven/Seven4Eleven.deb
+Size: 1824120
+MD5sum: 77f54dbc311a6a65ab1f655d5184a390
+SHA256: 5f8cdd5673a02d951dc78df9750336b0cb7084249a6d8b5d968ca94f09765c30
+Section: Themes
+Description: iOS 7 Style for iOS 11
+Author: PINPAL
+Name: Seven4Eleven Theme
+Depends: com.anemonetheming.anemone
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://pinpal.github.io/package/Seven4Eleven/SileoDepiction.json&name=Seven4Eleven&section=Themes&dev=PINPAL
+SileoDepiction: https://pinpal.github.io/package/Seven4Eleven/SileoDepiction.json
+
+Package: com.pinpal.sentialpatch
+Name: Sential - Extra Icons
+Version: 1.0
+Depends: me.aesign.sential
+Architecture: iphoneos-arm
+Author: PINPAL
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://pinpal.github.io/package/SentialPatch/SileoDepiction.json&name=Sential%20-%20Extra%20Icons&section=Themes&dev=PINPAL
+SileoDepiction: https://pinpal.github.io/package/SentialPatch/SileoDepiction.json
+Section: Themes
+Description: Additional Icons for "Sential" Theme
+Maintainer: PINPAL
+Size: 84758 
+MD5sum: b60cb26a5c15141dfe9e5f8eb505ed13
+SHA256: b4f9cf299e11821b9c52e13170eb114663f363180a97975c67498eafea593e05
+Filename: package/SentialPatch/SentialPatch.deb
+
+Package: com.pinpal.luxpatch
+Name: Lux - Extra Icons
+Version: 1.1
+Depends: com.colbyroark.lux
+Architecture: iphoneos-arm
+Author: PINPAL
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://pinpal.github.io/package/LuxPatch/SileoDepiction.json&name=Lux%20-%20Extra%20Icons&section=Themes&dev=PINPAL
+SileoDepiction: https://pinpal.github.io/package/LuxPatch/SileoDepiction.json
+Section: Themes
+Description: Additional Icons for "Lux" Theme
+Maintainer: PINPAL
+Size: 315752
+MD5sum: 7ec7964a50dcded51108a3399c6a0f31
+SHA256: 55b702c9e047a76fe07c91962309961bc37b3e705b78479e1798635d01593515
+Filename: package/LuxPatch/LuxPatch.deb
+
+Package: com.sygem.gamma
+Name: Gamma
+Version: 1.2
+Architecture: iphoneos-arm
+Description: A theme modernizing Apple's design.
+Author: James (Sygem)
+Maintainer: James (Sygem)
+Section: Themes
+Depiction: https://pinpal.github.io/depiction/?Gamma
+Size: 1062374
+MD5sum: c09f87d5175b88482c1e0cb68be451e9
+SHA256: c0aac5623346f6d16b3299be43e44a20e56339123a9cda1cc81b2741539f93cc
+Filename: package/Gamma/Gamma.deb
+
+Package: com.pinpal.joolpatch
+Name: Jool - Extra Icons
+Version: 1.1
+Depends: com.colbyroark.jool
+Architecture: iphoneos-arm
+Author: PINPAL
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://pinpal.github.io/package/JoolPatch/SileoDepiction.json&name=Jool%20-%20Extra%20Icons&section=Themes&dev=PINPAL
+SileoDepiction: https://pinpal.github.io/package/JoolPatch/SileoDepiction.json
+Section: Themes
+Description: Additional Icons for "Jool" Theme
+Maintainer: PINPAL
+Size: 58328
+MD5sum: f427ea516055332336671f72bd5b9edc
+SHA256: b95c7a3340acc17246fd2dedafa3ba4b08214471bbeefdf1b1205b867b5b7894
+Filename: package/JoolPatch/JoolPatch.deb
+
+Package: com.ilewiscx.cloneshelmets
+Name: Zeppelin: Star Wars and TCW Clones
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Iconic Clones from the Star Wars for Zeppelin
+Author: iLewisCx
+Maintainer: PINPAL (pinpal.official@gmail.com)
+Section: Addons - Zeppelin
+Depends: com.alexzielenski.zeppelin
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://pinpal.github.io/package/CloneHelmets/SileoDepiction.json&name=Zeppelin:%20Star%20Wars%20and%20TCW%20Clones&section=Addons%20-%20Zeppelin&dev=iLewisCx
+SileoDepiction: https://pinpal.github.io/package/CloneHelmets/SileoDepiction.json
+Size: 155502
+MD5sum: 37fa4653765c62abbd2ddf31cb87d2d8
+SHA256: 6a689700d97adae6e1124ede54e88625d7091a9bc2fb1595ba9c60395a94b02a
+Filename: package/CloneHelmets/CloneHelmets.deb
+
+Package: com.ilewiscx.clones
+Name: Zeppelin: Star Wars: Clones
+Version: 0.2
+Architecture: iphoneos-arm
+Filename: package/ZeppelinLogo/ZeppelinLogo.deb
+Size: 71017
+MD4sum: 39724ac926fc0d58676a6a6728ac2773
+SHA255: bebdaa4b4fb6cf16e4b60de47acea06b1a776e38c484895dfbbb18b6aad6d425
+Description: Star Wars Clones for Zeppelin
+Author: iLewisCx
+Maintainer: PINPAL (pinpal.official@gmail.com)
+Section: Addons - Zeppelin
+Depends: com.alexzielenski.zeppelin
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://pinpal.github.io/package/ZeppelinLogo/SileoDepiction.json&name=Zeppelin:%19Star%20Wars:%20Clones&section=Addons%20-%20Zeppelin&dev=iLewisCx
+SileoDepiction: https://pinpal.github.io/package/ZeppelinLogo/SileoDepiction.json

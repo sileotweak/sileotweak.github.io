@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title id="tweakName"></title>
+    <link rel="icon" class="next-head" id="pageIcon"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../assets/depiction/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<head>
+<body>
+
+  <div class="popupWrapper">
+    <div class="bigbox" id="sileod">
+      <div class="warningIcon">
+        <img src="https://pinpal.github.io/depiction/error.png">
+      </div>
+      <h1>Uh oh!</h1>
+      <h2>Your browser is outdated!</h2>
+      <p>Your browser is old or lacking basic web support. It does not support Javascript which is required by my site. 
+      </br>Sorry about that!</p>
+    </div>
+  </div>
+
+  <div class="wrapper">
+
+  <div class=column>
+  <div class="subtitle">Description</div>
+  <div class="bigbox">
+
+    <h1 id="tweakName"></h1>
+    <h2 id="tweakShortDescription"></h2>
+    <p id="tweakDescription"></p>
+
+    <div class="screenshots" id="tweakScreenshots"></div>
+
+    <a id="screenshotButton"><div class="button">View all Screenshots</div></a>
+
+  </div></div><div class=column>
+  <div class="subtitle">What's New</div>
+  <div class="bigbox">
+    
+    <p></p><span style="line-height:1.8;" id="tweakChangelog"></span>
+
+  </div></div><div class=column>
+  <div class="subtitle">Developer</div>
+  <div class="bigbox">
+
+    <a id="tweakDevTwitterURL" href="#">
+    <table style="margin-bottom: -15px;">
+      <tr>
+        <th><img id="tweakDevTwitterPic" class="twitter"></th>
+        <th>
+          <table>
+              <tr>
+                <th><span style="font-weight: normal; color: rgba(255,255,255,1)" id="tweakDeveloper"></span></th>
+              </tr>
+              <tr>
+                <th><span style="font-weight: normal; color: rgba(200,200,255,0.75)" id="tweakDevTwitter"></span><th>
+              </tr>
+            </table>
+          </th>
+      </tr>
+    </table></a>
+
+  </div></div><div class=column>
+  <div class="subtitle">Information</div>
+  <div class="bigbox">
+
+    <table width=100% style="border-collapse:collapse">
+            <tr>
+                <td class="info_table_row_b">Size</td>
+                <td class="info_table_row" id="tweakSize"></td>
+            </tr>
+            <tr>
+                <td class="info_table_row_b">Category</td>
+                <td class="info_table_row" id="tweakCategory"></td>
+            </tr>
+            <tr>
+                <td class="info_table_row_b">Compatibility</td>
+                <td class="info_table_row" id="tweakCompatibility"></td>
+            </tr>
+            <tr>
+                <td class="info_table_row_b">Version</td>
+                <td class="info_table_row" id="tweakVersion"></td>
+            </tr>
+            <tr>
+                <td class="info_table_row_b">Updated</td>
+                <td class="info_table_row" id="tweakUpdateDate"></td>
+            </tr>
+    </table>
+  </div></div>
+  <head>
+    <script src="../assets/global.js"></script>
+  </head>
+</body>
+
+<script>
+
+  //Remove Javascript Detector
+  document.getElementsByClassName('popupWrapper')[0].parentElement.removeChild(document.getElementsByClassName('popupWrapper')[0])
+  document.getElementsByClassName('wrapper')[0].style.filter = "none"
+
+  //Redirect to 404 page if package not specified in URL
+  if (window.location.search.substring(1)) {} else {
+    location.replace("https://pinpal.github.io/404")
+  }
+
+  var text = loadXMLDoc("/package/" + window.location.search.substring(1) + "/Info.xml"); //Specify the name of the XML config to load
+  var parser = new DOMParser();
+  var xmlDoc = parser.parseFromString(text,"text/xml"); //Load the XML config
+
+  //Array of ID's to change based on the package
+  var toChange = ["tweakName", "tweakShortDescription", "tweakSize", "tweakCategory",
+                  "tweakCompatibility", "tweakVersion", "tweakUpdateDate", "tweakDeveloper", "tweakDevTwitter"];
+
+  //Loop algorithm to swap all the ID's listed above based on package
+  for(var i = 0; i < toChange.length; i++) {
+      var elements = document.querySelectorAll('[id="' + toChange[i] + '"]');
+      for(var j = 0; j < elements.length; j++) {
+        elements[j].innerHTML = xmlDoc.getElementsByTagName(toChange[i])[0].childNodes[0].nodeValue;
+      }
+  }
+
+  //Replace Twitter Profile picture based off package developer
+  document.getElementById("tweakDevTwitterPic").src =
+  xmlDoc.getElementsByTagName("tweakDevTwitterPic")[0].childNodes[0].nodeValue;
+
+  //Replace Twitter URL based off package developer
+  document.getElementById("tweakDevTwitterURL").href =
+  xmlDoc.getElementsByTagName("tweakDevTwitterURL")[0].childNodes[0].nodeValue;
+
+  //Replace Screenshot button URL based off package name
+  document.getElementById("screenshotButton").setAttribute("href",window.location.origin + "/depiction/screenshots/?" + window.location.search.substring(1))
+
+  //Allow new line in tweak description
+  tweakDescription = xmlDoc.getElementsByTagName("tweakDescription")[0].childNodes[0].nodeValue;
+  tweakDescription = tweakDescription.replace(/\\n/g, "<br>") //Add line break to "\n"
+  document.getElementById("tweakDescription").innerHTML = tweakDescription //Apply description to webpage
+
+  //Make each bullet point of changelog on new line
+  changeLog = xmlDoc.getElementsByTagName("tweakChangelog")[0].childNodes[0].nodeValue;
+  changeLog = changeLog.replace(/\•/g, "<br>•") //Add line break to bullet points
+  changeLog = changeLog.replace("<br>", "") //Remove first line break
+  document.getElementById("tweakChangelog").innerHTML = changeLog //Apply changelog to webpage
+
+  //Function that is called when a screenshot loads
+  function loadAnotherScreenshot(element) {
+      var n = parseInt(element.id.slice(-1),10)
+      addScreenshot(n + 1)
+      document.getElementById('tweakScreenshots').style.height = "300px"
+  }
+
+  //Function that is called when a screenshot fails to load
+  function deleteScreenshot(element) {
+      console.log("failed " + element.id)
+      element.parentElement.removeChild(element)
+  }
+
+  //Function to add a new screenshot
+  function addScreenshot(n) {
+      if (document.getElementById("screenshot" + n) == null) {
+          screenshot = createElement("screenshot","img")
+          screenshot.setAttribute("src", window.location.origin + "/package/" + window.location.search.substring(1) + "/" + n + ".png")
+          screenshot.setAttribute("onerror","deleteScreenshot(this)")
+          screenshot.setAttribute("onload","loadAnotherScreenshot(this)")
+          screenshot.id = "screenshot" + n
+          document.getElementById('tweakScreenshots').appendChild(screenshot)
+      }
+  }
+
+  //Load initital wrapper
+  addScreenshot(1)
+
+  //Set page icon to package icon
+  document.getElementById('pageIcon').setAttribute("href", window.location.origin + "/assets/page-icons/" + window.location.search.substring(1) + ".png")
+
+</script>
