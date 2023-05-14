@@ -1,6 +1,6 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://pinpal.github.io/package/GraphitiPop/SileoBanner.jpg",
+    "headerImage": "https://sileotweak.github.io/package/NetworkSpeed/SileoBanner.jpg",
     "tabs": [
         {
             "tabname": "Details",
@@ -8,7 +8,7 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "GraphitiPop | Customizable Widget",
+                    "title": "Cool tweak for check internet speed by indicator on SB",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
@@ -20,68 +20,58 @@
                     "itemCornerRadius": 5,
                     "itemSize": "{160, 275.41333333333336}",
                     "screenshots": [
-                        {
-                            "url": "https://pinpal.github.io/package/GraphitiPop/1.png",
-                            "accessibilityText": "Screenshot0"
-                        },
-                        {
-                            "url": "https://pinpal.github.io/package/GraphitiPop/5.png",
-                            "accessibilityText": "Screenshot1"
-                        },
-                        {
-                            "url": "https://pinpal.github.io/package/GraphitiPop/3.png",
-                            "accessibilityText": "Screenshot2"
-                        },
-                        {
-                            "url": "https://pinpal.github.io/package/GraphitiPop/4.png",
-                            "accessibilityText": "Screenshot3"
-                        },
-                        {
-                            "url": "https://pinpal.github.io/package/GraphitiPop/2.png",
-                            "accessibilityText": "Screenshot4"
-                        },
-                        {
-                            "url": "https://pinpal.github.io/package/GraphitiPop/6.png",
-                            "accessibilityText": "Screenshot5"
-                        },
-                        {
-                            "url": "https://pinpal.github.io/package/GraphitiPop/7.png",
-                            "accessibilityText": "Screenshot6"
-                        },
-                        {
-                            "url": "https://pinpal.github.io/package/GraphitiPop/8.png",
-                            "accessibilityText": "Screenshot7"
-                        },
-                        {
-                            "url": "https://pinpal.github.io/package/GraphitiPop/9.png",
-                            "accessibilityText": "Screenshot8"
-                        },
-                        {
-                            "url": "https://pinpal.github.io/package/GraphitiPop/10.png",
-                            "accessibilityText": "Screenshot9"
-                        },
-                        {
-                            "url": "https://pinpal.github.io/package/GraphitiPop/11.png",
-                            "accessibilityText": "Screenshot10"
-                        },
-                        {
-                            "url": "https://pinpal.github.io/package/GraphitiPop/12.png",
-                            "accessibilityText": "Screenshot11"
-                        },
-                        {
-                            "url": "https://pinpal.github.io/package/GraphitiPop/13.png",
-                            "accessibilityText": "Screenshot12"
-                        },
-                        {
-                            "url": "https://pinpal.github.io/package/GraphitiPop/14.png",
-                            "accessibilityText": "Screenshot13"
-                        }
-                    ],
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://sileotweak.github.io/package/NetworkSpeed/shots/1.PNG",
+              "fullSizeURL": "https://sileotweak.github.io/package/NetworkSpeed/shots/1.PNG"
+            },
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://sileotweak.github.io/package/NetworkSpeed/shots/2.PNG",
+              "fullSizeURL": "https://sileotweak.github.io/package/NetworkSpeed/shots/2.PNG"
+            },
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://sileotweak.github.io/package/NetworkSpeed/shots/3.PNG",
+              "fullSizeURL": "https://sileotweak.github.io/package/NetworkSpeed/shots/3.PNG"
+            },
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://sileotweak.github.io/package/NetworkSpeed/shots/4.PNG",
+              "fullSizeURL": "https://sileotweak.github.io/package/NetworkSpeed/shots/4.PNG"
+            }
+           
+          ],
+          "ipad": {
+            "itemCornerRadius": 9,
+            "itemSize": "{320, 692.9066666666666}",
+            "screenshots": [
+              {
+                "accessibilityText": "Screenshot",
+                "url": "https://sileotweak.github.io/package/NetworkSpeed/shots/1.PNG",
+                "fullSizeURL": "https://sileotweak.github.io/package/NetworkSpeed/shots/1.PNG"
+              },
+              {
+                "accessibilityText": "Screenshot",
+                "url": "https://sileotweak.github.io/package/NetworkSpeed/shots/2.PNG",
+                "fullSizeURL": "https://sileotweak.github.io/package/NetworkSpeed/shots/2.PNG"
+              },
+              {
+                "accessibilityText": "Screenshot",
+                "url": "https://sileotweak.github.io/package/NetworkSpeed/shots/3.PNG",
+                "fullSizeURL": "https://sileotweak.github.io/package/NetworkSpeed/shots/3.PNG"
+              },
+              {
+                "accessibilityText": "Screenshot",
+                "url": "https://sileotweak.github.io/package/NetworkSpeed/shots/4.PNG",
+                "fullSizeURL": "https://sileotweak.github.io/package/NetworkSpeed/shots/4.PNG"
+              }
+            ],
                     "class": "DepictionScreenshotsView"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "# GraphitiPop\r\n### Customizable Widgets\r\nThis pack includes 2 widgets.\r\nOne for your lockscreen and one for your homescreen.\r\n\r\n\r\n\r\n\n\n**Homescreen Options:**\r\n*  Change Image with any URL\r\n*  Hide Battery Percentage\r\n*  Hide Battery Bar\r\n*  Hide Date Info\r\n*  Hide Time Info\r\n*  Change Font Color\r\n*  Change Top Box Color\r\n*  Change Bottom Box Color\r\n*  Change Circle Outline Color\r\n*  Configure Language\r\n*  Change Top Space Size\r\n\r\n\r\n**Lockscreen Options:**\r\n*  Change Background Color\r\n*  Configure  the Stripe Colors\r\n*  Change Top Space Size\r\n\r\n\r\nBoth widgets use your wallpaper so you can add your own style.\r\n(See Screenshots for examples).",
+                    "markdown": "#NetworkSpeedFeatures :\n\n\n- Upoad Speed indicator on StutesBar.\n\n\n- Download Speed Indicator on StutesBar.",
                     "useSpacing": true
                 },
                 {
@@ -97,7 +87,7 @@
                     "class": "DepictionSpacerView"
                 },
                 {
-                    "text": "PINPAL",
+                    "text": "johnzaro",
                     "title": "Developer",
                     "class": "DepictionTableTextView"
                 },
@@ -112,75 +102,23 @@
             "class": "DepictionStackView",
             "views": [
                 {
-                    "title": "Version 1.3.1",
+                    "title": "Version 3.0.6",
                     "useBoldText": true,
                     "useBottomMargin": true,
                     "class": "DepictionSubheaderView"
                 },
                 {
-                    "markdown": "Update Changes:\r\n\r\n* Fix Options Menu not Showing",
+                    "markdown": "Update Changes:\r\n\r\n* Translate to english",
                     "useSpacing": false,
                     "class": "DepictionMarkdownView"
                 },
-                {
-                    "title": "Version 1.3",
-                    "useBoldText": true,
-                    "useBottomMargin": true,
-                    "class": "DepictionSubheaderView"
-                },
-                {
-                    "markdown": "Update Changes:\r\n\r\n* Add Option to hide all text on Home Screen",
-                    "useSpacing": false,
-                    "class": "DepictionMarkdownView"
-                },
-                {
-                    "title": "Version 1.2",
-                    "useBoldText": true,
-                    "useBottomMargin": true,
-                    "class": "DepictionSubheaderView"
-                },
-                {
-                    "markdown": "Update Changes:\r\n\r\n* Add Option to Change Top Box Color on Home Screen\r\n* Add Option to Change Bottom Box Color on Home Screen\r\n* Add Option to Change Circle Outline Color on Home Screen",
-                    "useSpacing": false,
-                    "class": "DepictionMarkdownView"
-                },
-                {
-                    "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 10-04-2020</small>",
-                    "useRawFormat": true,
-                    "class": "DepictionMarkdownView"
-                },
-                {
-                    "title": "Version 1.1",
-                    "useBoldText": true,
-                    "useBottomMargin": true,
-                    "class": "DepictionSubheaderView"
-                },
-                {
-                    "markdown": "Update Changes:\r\n\r\n* Added Lockscreen Widget\r\n* Renamed Widgets\r\n* Optimised Javascript",
-                    "useSpacing": false,
-                    "class": "DepictionMarkdownView"
-                },
-                {
-                    "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 12-03-2020</small>",
-                    "useRawFormat": true,
-                    "class": "DepictionMarkdownView"
-                },
+               
                 {
                     "class": "DepictionSeparatorView"
                 },
+                
                 {
-                    "title": "Version 1.0",
-                    "useBoldText": true,
-                    "useBottomMargin": true,
-                    "class": "DepictionSubheaderView"
-                },
-                {
-                    "markdown": "Initial Release.",
-                    "useSpacing": false,
-                    "class": "DepictionMarkdownView"
-                },
-                {
-                    "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 09-03-2020</small>",
+                    "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2023/5</small>",
                     "useRawFormat": true,
                     "class": "DepictionMarkdownView"
                 },
