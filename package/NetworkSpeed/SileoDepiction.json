@@ -87,7 +87,14 @@
                 {
                     "spacing": 8,
                     "class": "DepictionSpacerView"
+                },
+                {
+                    "class":"DepictionButtonView",
+                    "text":"Tweak Depiction",
+                    "tintColor":"#1ad4a2",
+                    "action":"https://sileotweak.github.io/depiction/?NetworkSpeed"
                 }
+                
             ]
         },
         {
