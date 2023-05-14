@@ -1,0 +1,11 @@
+Package: com.johnzaro.networkspeed13
+Section: Tweaks
+Installed-Size: 880
+Maintainer: Johnzaro
+Architecture: iphoneos-arm64
+Version: 3.0.6
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 12)
+Description: Netwkork Speed indicator
+Name: NetworkSpeed
+Author: Johnzaro
+SileoDepiction: https://sileotweak.github.io/package/NetworkSpeed/SileoDepiction.json
