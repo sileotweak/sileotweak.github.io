@@ -47,6 +47,10 @@
                 {
                     "class": "DepictionSeparatorView"
                 },
+                {  
+                 "class":"DepictionHeaderView",
+                 "title":"Information"
+                },
                 {
                     "text": "Free",
                     "title": "Price",
@@ -118,14 +122,25 @@
             "views": [
                 
                 {
-                    "title": "Follow me on Twitter",
-                    "action": "depiction-https://twitter.com/cydia05",
-                    "class": "DepictionTableButtonView"
+                    "class":"DepictionButtonView",
+                    "text":"Twitter",
+                    "tintColor":"#00CFF8",
+                    "action":"twitter.com/cydia05"
+                },
+                {
+                    "class":"DepictionButtonView",
+                    "text":"offical repo",
+                    "tintColor":"#55B8C5",
+                    "action":"https://lclrc.github.io/repo"
+                },
+                {
+                    "spacing": 30,
+                    "class": "DepictionSeparatorView"
                 },
                 {
                     "URL": "https://cydia05.github.io/repo/CydiaIcon.png",
-                    "width": 50,
-                    "height": 50,
+                    "width": 30,
+                    "height": 30,
                     "alignment": 1,
                     "cornerRadius": 10,
                     "class": "DepictionImageView"
@@ -143,6 +158,6 @@
             ]
         }
     ],
-    "tintColor": "#ff325b",
+    "tintColor": "#54A4C4",
     "minVersion": "0.1"
 }
