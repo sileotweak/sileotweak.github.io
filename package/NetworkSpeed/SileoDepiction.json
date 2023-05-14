@@ -76,11 +76,6 @@
                     "class": "DepictionTableTextView"
                 },
                 {
-                    "text": "3.0.6",
-                    "title": "Version",
-                    "class": "DepictionTableTextView"
-                },
-                {
                     "text": "Tweaks",
                     "title": "Section",
                     "class": "DepictionTableTextView"
@@ -112,23 +107,36 @@
                     "class": "DepictionMarkdownView"
                 },
                 {
+                    "spacing": 20,
+                    "class": "DepictionSeparatorView"
+                }
+            ]
+        },
+        {
+            "tabname": "Contact",
+            "class": "DepictionStackView",
+            "views": [
+                
+                {
                     "title": "Follow me on Twitter",
                     "action": "depiction-https://twitter.com/cydia05",
                     "class": "DepictionTableButtonView"
+                },
+                {
+                    "URL": "https://cydia05.github.io/repo/CydiaIcon.png",
+                    "width": 50,
+                    "height": 50,
+                    "alignment": 1,
+                    "cornerRadius": 10,
+                    "class": "DepictionImageView"
+                    "spacing": 20,
                 },
                 {
                     "markdown": "<small style=\"color: #aaa; font-size: 8pt;\">MALIK M.</small><style>body { text-align: center; }</style>",
                     "useRawFormat": true,
                     "class": "DepictionMarkdownView"
                 },
-                {
-                    "URL": "https://cydia05.github.io/repo/CydiaIcon.png",
-                    "width": 44,
-                    "height": 27,
-                    "alignment": 1,
-                    "cornerRadius": 0,
-                    "class": "DepictionImageView"
-                },
+               
                 {
                     "spacing": 20,
                     "class": "DepictionSeparatorView"
