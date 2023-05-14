@@ -7,30 +7,30 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "Star Wars Movie and TCW Clones",
+                    "title": "SileoTweak",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Iconic Clones from the Star Wars Movies and Star Wars The Clone Wars TV series.",
+                    "markdown": "SileoTweak",
                     "useSpacing": true
                 },
                 {
                     "class": "DepictionSeparatorView"
                 },
                 {
-                    "text": "1.1",
+                    "text": "1995",
                     "title": "Version",
                     "class": "DepictionTableTextView"
                 },
                 {
-                    "text": "07-03-2019",
+                    "text": "2023/5/14",
                     "title": "Released",
                     "class": "DepictionTableTextView"
                 },
                 {
-                    "text": "Free",
+                    "text": "Paid",
                     "title": "Price",
                     "class": "DepictionTableTextView"
                 },
@@ -39,7 +39,7 @@
                     "class": "DepictionSpacerView"
                 },
                 {
-                    "text": "iLewisCx",
+                    "text": "Sabaawi",
                     "title": "Developer",
                     "class": "DepictionTableTextView"
                 },
