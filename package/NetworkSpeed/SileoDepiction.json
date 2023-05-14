@@ -1,160 +1,178 @@
 {
-    "class": "DepictionTabView",
-    "headerImage": "https://pinpal.github.io/package/Phertela/SileoBanner.jpg",
-    "tabs": [
+  "minVersion": "0.1",
+  "headerImage": "https://sileotweak.github.io/package/NetworkSpeed/SileoBanner.jpg",
+  "tintColor": "#2d8088",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "views": [
         {
-            "tabname": "Details",
-            "class": "DepictionStackView",
-            "views": [
-                {
-                    "class": "DepictionSubheaderView",
-                    "title": "Phertela | Customizable Widget",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
-                },
-                {
-                    "itemCornerRadius": 12,
-                    "itemSize": "{160, 275.41333333333336}",
-                    "screenshots": [
-                        {
-                            "url": "https://pinpal.github.io/package/Phertela/1.png",
-                            "accessibilityText": "Screenshot0"
-                        },
-                        {
-                            "url": "https://pinpal.github.io/package/Phertela/2.png",
-                            "accessibilityText": "Screenshot1"
-                        },
-                        {
-                            "url": "https://pinpal.github.io/package/Phertela/3.png",
-                            "accessibilityText": "Screenshot2"
-                        }
-                    ],
-                    "class": "DepictionScreenshotsView"
-                },
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "# Phertela\r\n### Customizable Widget for your Homescreen.\r\n\r\n</br>\r\nFeatures include:\r\n\r\n* Temperature\r\n* Weather Overview\r\n* Chance of Rain\r\n* Weather Icons\r\n* Battery Percentage\r\n* WiFi Indicator\r\n* Cellular Indicator\r\n* Apps Title\r\n\r\n</br>\r\n\r\nCustomize it to your needs including:\r\n</br>\r\n* German & English Language\r\n* Customize Padding Values:\r\n* Top Inset\r\n* Side Inset\r\n* Primary Colour\r\n* Secondary Colour\r\n\r\nThis widget was designed by:\r\n<small style='color:#ff325b;'>A-N-O-N-Y-M [iOS 12.1.0]#0344</small> who you can find on Discord.",
-                    "useSpacing": true
-                },
-                {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "text": "Free",
-                    "title": "Price",
-                    "class": "DepictionTableTextView"
-                },
-                {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
-                },
-                {
-                    "text": "PINPAL",
-                    "title": "Developer",
-                    "class": "DepictionTableTextView"
-                },
-                {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
-                },
-                {
-                    "text": "A-N-O-N-Y-M [iOS 12.4.1]#0344",
-                    "title": "Designer",
-                    "class": "DepictionTableTextView"
-                },
-                {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
-                }
-            ]
+          "title": "Cool tweak for check internet speed by indicator on SB.",
+          "useBoldText": true,
+          "useBottomMargin": false,
+          "class": "DepictionSubheaderView"
         },
         {
-            "tabname": "Changes",
-            "class": "DepictionStackView",
-            "views": [
-                {
-                    "title": "Version 1.3",
-                    "useBoldText": true,
-                    "useBottomMargin": true,
-                    "class": "DepictionSubheaderView"
-                },
-                {
-                    "markdown": "Update Changes:\r\n\r\n* Removed RAM Free Feature:\r\n* Added Cellular Network Type Indicator\r\n* Added Carrer Name",
-                    "useSpacing": false,
-                    "class": "DepictionMarkdownView"
-                },
-                {
-                    "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 06-07-2019</small>",
-                    "useRawFormat": true,
-                    "class": "DepictionMarkdownView"
-                },
-                {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "title": "Version 1.2",
-                    "useBoldText": true,
-                    "useBottomMargin": true,
-                    "class": "DepictionSubheaderView"
-                },
-                {
-                    "markdown": "Update Changes:\r\n\r\n* Added Option to Toggle Apps:\r\n* Added RAM Free Indicator\r\n* Fixed Some Margins\r\n* Performance Improvments",
-                    "useSpacing": false,
-                    "class": "DepictionMarkdownView"
-                },
-                {
-                    "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 06-07-2019</small>",
-                    "useRawFormat": true,
-                    "class": "DepictionMarkdownView"
-                },
-                {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "title": "Version 1.1",
-                    "useBoldText": true,
-                    "useBottomMargin": true,
-                    "class": "DepictionSubheaderView"
-                },
-                {
-                    "markdown": "Update Changes:\r\n\r\n* Fixed Sun Icon\r\n* Fixed Temperature Margin\r\n* Fixed Numbers Font Margins",
-                    "useSpacing": false,
-                    "class": "DepictionMarkdownView"
-                },
-                {
-                    "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 06-07-2019</small>",
-                    "useRawFormat": true,
-                    "class": "DepictionMarkdownView"
-                },
-                {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "title": "Version 1.0",
-                    "useBoldText": true,
-                    "useBottomMargin": true,
-                    "class": "DepictionSubheaderView"
-                },
-                {
-                    "markdown": "Initial Release.",
-                    "useSpacing": false,
-                    "class": "DepictionMarkdownView"
-                },
-                {
-                    "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 06-07-2019</small>",
-                    "useRawFormat": true,
-                    "class": "DepictionMarkdownView"
-                },
-                {
-                    "class": "DepictionSeparatorView"
-                }
-            ]
+          "itemCornerRadius": 6,
+          "itemSize": "{160, 346.4533333333333}",
+          "screenshots": [
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://sileotweak.github.io/package/NetworkSpeed/shots/1.PNG",
+              "fullSizeURL": "https://sileotweak.github.io/package/NetworkSpeed/shots/1.PNG"
+            },
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://sileotweak.github.io/package/NetworkSpeed/shots/2.PNG",
+              "fullSizeURL": "https://sileotweak.github.io/package/NetworkSpeed/shots/2.PNG"
+            },
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://sileotweak.github.io/package/NetworkSpeed/shots/3.PNG",
+              "fullSizeURL": "https://sileotweak.github.io/package/NetworkSpeed/shots/3.PNG"
+            },
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://sileotweak.github.io/package/NetworkSpeed/shots/4.PNG",
+              "fullSizeURL": "https://sileotweak.github.io/package/NetworkSpeed/shots/4.PNG"
+            }
+           
+          ],
+          "ipad": {
+            "itemCornerRadius": 9,
+            "itemSize": "{320, 692.9066666666666}",
+            "screenshots": [
+              {
+                "accessibilityText": "Screenshot",
+                "url": "https://sileotweak.github.io/package/NetworkSpeed/shots/1.PNG",
+                "fullSizeURL": "https://sileotweak.github.io/package/NetworkSpeed/shots/1.PNG"
+              },
+              {
+                "accessibilityText": "Screenshot",
+                "url": "https://sileotweak.github.io/package/NetworkSpeed/shots/2.PNG",
+                "fullSizeURL": "https://sileotweak.github.io/package/NetworkSpeed/shots/2.PNG"
+              },
+              {
+                "accessibilityText": "Screenshot",
+                "url": "https://sileotweak.github.io/package/NetworkSpeed/shots/3.PNG",
+                "fullSizeURL": "https://sileotweak.github.io/package/NetworkSpeed/shots/3.PNG"
+              },
+              {
+                "accessibilityText": "Screenshot",
+                "url": "https://sileotweak.github.io/package/NetworkSpeed/shots/4.PNG",
+                "fullSizeURL": "https://sileotweak.github.io/package/NetworkSpeed/shots/4.PNG"
+              }
+            ],
+            "class": "DepictionScreenshotView"
+          },
+          "class": "DepictionScreenshotsView"
+        },
+        {
+          "\n\n### Features :\n\n\n- Upoad Speed indicator on StutesBar.\n\n\n- Download Speed Indicator on StutesBar.",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "Latest Version",
+          "class": "DepictionHeaderView"
+        },
+           {
+          "title": "Developer",
+          "text": "john Zaro",
+          "class": "DepictionTableTextView"
+        },
+
+           {
+          "title": "Translater",
+          "text": "MALIK M@cydia05",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Version",
+          "text": "3.0.4-1",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Added",
+          "text": "2023,12 May",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Price",
+          "text": "Free",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "More Packages",
+          "action": "https://sileotweak.github.io/Sileo-Depiction-WebViews/repo/?repo=https://sileotweak.github.io/repo",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "spacing": 12,
+          "class": "DepictionSpacerView"
+        },
+     
+        {
+          "title": "Contact",
+          "action": "https://twitter.com/cydia05",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "spacing": 12,
+          "class": "DepictionSpacerView"
+        },
+      
+        {
+          "URL": "https://cydia05.github.io/repo/CydiaIcon.png",
+          "width": 40,
+          "height": 40,
+          "alignment": 1,
+          "cornerRadius": 0,
+          "class": "DepictionImageView"
+        },
+        {
+          "markdown": "<small style=\"color: #aaa; font-size: 8pt;\">CYDIA05 REPO ©MALIK MOHAMMED.</small><style>body { text-align: center; }</style>",
+          "useRawFormat": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "spacing": 20,
+          "class": "DepictionSpacerView"
         }
-    ],
-    "tintColor": "#ff325b",
-    "minVersion": "0.1"
+      ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "Changelog",
+      "views": [
+        {
+          "title": "Version 3.0.6",
+          "useBoldText": true,
+          "useBottomMargin": true,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "Thanks for using My Repo We’ve been working hard to make your experience even better.\n- Translated to English.\n- Add rootless Support.",
+          "useSpacing": false,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "markdown": "<small style=\"color: #999; margin-top: -8px;\">Added at 2023/5/13</small>",
+          "useRawFormat": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        }
+      ],
+      "class": "DepictionStackView"
+    }
+  ],
+  "class": "DepictionTabView"
 }
