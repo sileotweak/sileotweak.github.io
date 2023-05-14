@@ -322,7 +322,7 @@ if (navigator.userAgent.toLowerCase().includes("cydia")) {
 }
 function screenshotViewCydia(element) {
     window.location.href = 
-        "https://pinpal.github.io/Sileo-Depiction-WebViews/screenshotViewCydia/?image=" 
+        "https://sileotweak.github.io/Sileo-Depiction-WebViews/screenshotViewCydia/?image=" 
         + element.src 
         + "&back="
         + window.location.href
