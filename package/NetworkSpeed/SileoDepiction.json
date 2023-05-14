@@ -112,6 +112,25 @@
                     "class": "DepictionMarkdownView"
                 },
                 {
+                    "title": "Follow me on Twitter",
+                    "action": "depiction-https://twitter.com/cydia05",
+                    "class": "DepictionTableButtonView"
+                },
+                {
+                    "markdown": "<small style=\"color: #aaa; font-size: 8pt;\">MALIK M.</small><style>body { text-align: center; }</style>",
+                    "useRawFormat": true,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "URL": "https://cydia05.github.io/repo/CydiaIcon.png",
+                    "width": 44,
+                    "height": 27,
+                    "alignment": 1,
+                    "cornerRadius": 0,
+                    "class": "DepictionImageView"
+                },
+                {
+                    "spacing": 20,
                     "class": "DepictionSeparatorView"
                 }
             ]
