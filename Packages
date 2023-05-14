@@ -168,3 +168,20 @@ Section: Addons - Zeppelin
 Depends: com.alexzielenski.zeppelin
 Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://pinpal.github.io/package/ZeppelinLogo/SileoDepiction.json&name=Zeppelin:%19Star%20Wars:%20Clones&section=Addons%20-%20Zeppelin&dev=iLewisCx
 SileoDepiction: https://pinpal.github.io/package/ZeppelinLogo/SileoDepiction.json
+
+Package: com.johnzaro.networkspeed13
+Section: Tweaks
+Maintainer: Johnzaro
+Architecture: iphoneos-arm64
+Version: 3.0.6
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 12), org.thebigboss.libcolorpicker
+Description: Network Speed translated to English
+Name: NetworkSpeed
+Author: Johnzaro
+SileoDepiction: https://sileotweak.github.io/package/NetworkSpeed/SileoDepiction.json
+Installed-Size: 810
+Size: 478488 
+Filename: ./package/NetworkSpeed/nts.deb
+MD5:   28a1ee4901e9ccf50383cdf864572c53
+SHA1: 458032e4c3e78f6cbde24ed53b47a87331f1a635
+SHA256: 17d6e8d5d44d4e04ed650e7439409bdd35254acbb8269ced804fccfa614cc377
