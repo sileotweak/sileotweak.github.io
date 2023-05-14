@@ -129,14 +129,13 @@
                     "alignment": 1,
                     "cornerRadius": 10,
                     "class": "DepictionImageView"
-                    "spacing": 20,
+                  
                 },
                 {
                     "markdown": "<small style=\"color: #aaa; font-size: 8pt;\">MALIK M.</small><style>body { text-align: center; }</style>",
                     "useRawFormat": true,
                     "class": "DepictionMarkdownView"
-                },
-               
+                },   
                 {
                     "spacing": 20,
                     "class": "DepictionSeparatorView"
