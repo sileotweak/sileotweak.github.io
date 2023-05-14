@@ -1,7 +1,7 @@
 <tweak>
 
 <tweakName>
-NetworkSpeed
+Network Speed
 </tweakName>
 <tweakShortDescription>
 internet speed indicator
@@ -23,7 +23,7 @@ Includes features: \n
 Tweaks
 </tweakCategory>
 <tweakCompatibility>
-iOS 15.0 to iOS 16.4 rootless & rootfull
+iOS 15.0 to iOS 16.4 
 </tweakCompatibility>
 <tweakVersion>
 3.0.6
@@ -46,6 +46,7 @@ https://twitter.com/cydia05
 </tweakDevTwitterURL>
 
 <tweakChangelog>
+• Add English language
 • Add English language 
 </tweakChangelog>
 
