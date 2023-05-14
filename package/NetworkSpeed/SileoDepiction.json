@@ -31,13 +31,17 @@
                         {
                             "url": "https://sileotweak.github.io/package/NetworkSpeed/shots/3.PNG",
                             "accessibilityText": "Screenshot2"
+                        }, 
+                        {
+                            "url": "https://sileotweak.github.io/package/NetworkSpeed/shots/4.PNG",
+                            "accessibilityText": "Screenshot2"
                         }
                     ],
                     "class": "DepictionScreenshotsView"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "# NetworkSpeed\r\n### Showing InterNet Speed on stutes bar.\r\n\r\n\r\nFeatures include:\r\n\r\n* download Speed\r\n* upload Speed\r\n* Gesture Apps\r\n* Gesture motion.",
+                    "markdown": "# NetworkSpeed\r\n### Showing Internet Speed on stutes bar.\r\n\r\n\r\n Features include:\r\n\r\n* download Speed\r\n* upload Speed\r\n* Gesture Apps\r\n* Gesture motion.",
                     "useSpacing": true
                 },
                 {
