@@ -8,7 +8,7 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "NetworkSpeed Net speed indicator",
+                    "title": "screenshots",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
@@ -41,7 +41,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "# NetworkSpeed\r\n### Showing Internet Speed on stutes bar.\r\n\r\n\r\n Features include:\r\n\r\n* download Speed\r\n* upload Speed\r\n* Gesture Apps\r\n* Gesture motion.",
+                    "markdown": "# Wolf (rootless) tweak \r\n### More advanced tweak for facebook.\r\n\r\n\r\n Features include:\r\n\r\n* download video\r\n* remove ads\r\n* freeze chats.",
                     "useSpacing": true
                 },
                 {
@@ -75,8 +75,8 @@
                     "class": "DepictionSpacerView"
                 },
                 {
-                    "text": "MALIK",
-                    "title": "Designer",
+                    "text": "iOS 15.0 - iOS 15.4.1",
+                    "title": "Version supported",
                     "class": "DepictionTableTextView"
                 },
                 {
@@ -92,7 +92,7 @@
                     "class":"DepictionButtonView",
                     "text":"Tweak Depiction",
                     "tintColor":"#1ad4a2",
-                    "action":"https://sileotweak.github.io/depiction/?NetworkSpeed"
+                    "action":"https://sileotweak.github.io/depiction/?Wolf"
                 }
                 
             ]
@@ -102,18 +102,18 @@
             "class": "DepictionStackView",
             "views": [
                 {
-                    "title": "Version 3.0.6",
+                    "title": "Version 2.1",
                     "useBoldText": true,
                     "useBottomMargin": true,
                     "class": "DepictionSubheaderView"
                 },
                 {
-                    "markdown": "Whats this?:\r\n\r\n* indicates download speed:\r\n* upload speed.",
+                    "markdown": "Whats new ?:\r\n\r\n* fixes bugs speed:\r\n* support rotless jailbreak.",
                     "useSpacing": false,
                     "class": "DepictionMarkdownView"
                 },
                 {
-                    "markdown": "<small style=\"color: #999; margin-top: -8px;\">2023/5/14</small>",
+                    "markdown": "<small style=\"color: #999; margin-top: -8px;\">2023/5/16</small>",
                     "useRawFormat": true,
                     "class": "DepictionMarkdownView"
                 },
@@ -138,7 +138,7 @@
                     "class":"DepictionButtonView",
                     "text":"official repo",
                     "tintColor":"#55B8C5",
-                    "action":"https://lclrc.github.io/repo"
+                    "action":"https://apt.thebigboss.org/repofiles/cydia"
                 },
                 {
                     "URL": "https://cydia05.github.io/repo/CydiaIcon.png",
@@ -160,6 +160,6 @@
             ]
         }
     ],
-    "tintColor": "#54A4C4",
+    "tintColor": "#006699",
     "minVersion": "0.1"
 }
