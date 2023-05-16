@@ -49,7 +49,7 @@ Size: 104408
 Section: Tweaks
 Depends: mobilesubstrate
 Filename: ./package/Spotilife/Spotilife.deb
-Depiction: https://sileotweak.github.io/depiction/?Spotilife
+Depiction: https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/Spotilife/SileoDepiction.json&name=Spotilife&dev=Julioverne
 SileoDepiction: https://sileotweak.github.io/package/Spotilife/SileoDepiction.json
 Architecture: iphoneos-arm64
 Icon: https://sileotweak.github.io/depiction/Spotilife.png

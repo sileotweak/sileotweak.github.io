@@ -81,7 +81,7 @@
                     "class":"DepictionButtonView",
                     "text":"Tweak Depiction",
                     "tintColor":"#1ad4a2",
-                    "action":"https://sileotweak.github.io/depiction/?Spotilife"
+                    "action":"https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/Spotilife/SileoDepiction.json&name=Spotilife&dev=Julioverne"
                 }
                 
             ]
@@ -127,7 +127,7 @@
                     "class":"DepictionButtonView",
                     "text":"official repo",
                     "tintColor":"#55B8C5",
-                    "action":"https://apt.thebigboss.org/repofiles/cydia/dists/stable" 
+                    "action":"https://julio.hackyouriphone.org" 
                 },
                 {
                     "spacing": 40,
