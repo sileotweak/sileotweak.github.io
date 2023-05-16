@@ -131,17 +131,18 @@
                     "class":"DepictionButtonView",
                     "text":"official repo",
                     "tintColor":"#55B8C5",
-                    "action":"https://apt.thebigboss.org/repofiles/cydia/dists/stable"
-                    "spacing": 20,
-                    "class": "DepictionImageView"
+                    "action":"https://apt.thebigboss.org/repofiles/cydia/dists/stable" 
                 },
+                {
+                    "spacing": 20,
+                    "class": "DepictionSeparatorView"
+                }
                 {
                     "URL": "https://pbs.twimg.com/profile_images/1503135375526662144/Cy4VEKAL_400x400.jpg",
                     "width": 30,
                     "height": 30,
                     "alignment": 1,
                     "cornerRadius": 10,
-                    "spacing": 20,
                     "class": "DepictionImageView"
                     
                 },
