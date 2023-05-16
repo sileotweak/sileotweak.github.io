@@ -1,0 +1,161 @@
+{
+    "class": "DepictionTabView",
+    "headerImage": "https://sileotweak.github.io/package/NetworkSpeed/SileoBanner.jpg",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "class": "DepictionStackView",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "screenshots",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "itemCornerRadius": 12,
+                    "itemSize": "{160, 275.41333333333336}",
+                    "screenshots": [
+                        {
+                            "url": "https://sileotweak.github.io/package/Wolf/1.png",
+                            "accessibilityText": "Screenshot1"
+                        },
+                        {
+                            "url": "https://sileotweak.github.io/package/Wolf/2.png",
+                            "accessibilityText": "Screenshot2"
+                        }
+
+                    ],
+                    "class": "DepictionScreenshotsView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "# Wolf (rootless) tweak \r\n### More advanced tweak for facebook.\r\n\r\n\r\n Features include:\r\n\r\n* download video\r\n* remove ads\r\n* freeze chats.",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {  
+                 "class":"DepictionHeaderView",
+                 "title":"Information"
+                },
+                {
+                    "text": "Free",
+                    "title": "Price",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                 {
+                    "text": "SileoTweak",
+                    "title": "Maintainer",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "text": "Michael lima",
+                    "title": "Developer",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "text": "iOS 15.0 - iOS 15.4.1",
+                    "title": "Version supported",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "text": "Tweaks",
+                    "title": "Section",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "class":"DepictionButtonView",
+                    "text":"Tweak Depiction",
+                    "tintColor":"#1ad4a2",
+                    "action":"https://sileotweak.github.io/depiction/?Wolf"
+                }
+                
+            ]
+        },
+        {
+            "tabname": "Changes",
+            "class": "DepictionStackView",
+            "views": [
+                {
+                    "title": "Version 2.1",
+                    "useBoldText": true,
+                    "useBottomMargin": true,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "markdown": "Whats new ?:\r\n\r\n* fixes bugs speed:\r\n* support rotless jailbreak.",
+                    "useSpacing": false,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "markdown": "<small style=\"color: #999; margin-top: -8px;\">2023/5/16</small>",
+                    "useRawFormat": true,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "spacing": 20,
+                    "class": "DepictionSeparatorView"
+                }
+            ]
+        },
+        {
+            "tabname": "Contact",
+            "class": "DepictionStackView",
+            "views": [
+                
+                {
+                    "class":"DepictionButtonView",
+                    "text":"Twitter",
+                    "tintColor":"#00CFF8",
+                    "action":"https://twitter.com/cydia05"
+                },
+                {
+                    "class":"DepictionButtonView",
+                    "text":"official repo",
+                    "tintColor":"#55B8C5",
+                    "action":"https://apt.thebigboss.org/repofiles/cydia/dists/stable" 
+                },
+                {
+                    "spacing": 40,
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "URL": "https://pbs.twimg.com/profile_images/1503135375526662144/Cy4VEKAL_400x400.jpg",
+                    "width": 30,
+                    "height": 30,
+                    "alignment": 1,
+                    "cornerRadius": 10,
+                    "class": "DepictionImageView"
+                    
+                },
+                
+                {
+                    "markdown": "<small style=\"color: #aaa; font-size: 8pt;\">MALIK M</small><style>body { text-align: center; }</style>",
+                    "useRawFormat": true,
+                    "class": "DepictionMarkdownView"
+                }   
+                
+            ]
+        }
+    ],
+    "tintColor": "#006699",
+    "minVersion": "0.1"
+}
