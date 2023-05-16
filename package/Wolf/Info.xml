@@ -1,0 +1,54 @@
+<tweak>
+
+<tweakName>
+Walf
+</tweakName>
+<tweakShortDescription>
+Add many features for facebook
+</tweakShortDescription>
+<tweakDescription>
+Includes features: \n
+• Download Videos \n
+• Remove Ads \n
+• Freeze Stute
+</tweakDescription>
+
+<tweakSize>
+1.3 MB
+</tweakSize>
+<tweakCategory>
+Tweaks
+</tweakCategory>
+<tweakCompatibility>
+iOS 15.0 to iOS 16.4 
+</tweakCompatibility>
+<tweakVersion>
+2.1
+</tweakVersion>
+<tweakUpdateDate>
+2023/5/16
+</tweakUpdateDate>
+
+<tweakDeveloper>
+lema
+</tweakDeveloper>
+<tweakDevTwitter>
+@cydia05
+</tweakDevTwitter>
+<tweakDevTwitterPic>
+https://sileotweak.github.io/CydisIcon.png
+</tweakDevTwitterPic>
+<tweakDevTwitterURL>
+https://twitter.com/cydia05
+</tweakDevTwitterURL>
+
+<tweakChangelog>
+• Improve and Fixes bugs
+• Support rootless jalbreak
+</tweakChangelog>
+
+<numOfScreenshots>
+4
+</numOfScreenshots>
+
+</tweak>

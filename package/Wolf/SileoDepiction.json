@@ -21,20 +21,20 @@
                     "itemSize": "{160, 275.41333333333336}",
                     "screenshots": [
                         {
-                            "url": "https://sileotweak.github.io/package/NetworkSpeed/1.png",
+                            "url": "https://sileotweak.github.io/package/NetworkSpeed/shots/1.PNG",
+                            "accessibilityText": "Screenshot0"
+                        },
+                        {
+                            "url": "https://sileotweak.github.io/package/NetworkSpeed/shots/2.PNG",
                             "accessibilityText": "Screenshot1"
                         },
                         {
-                            "url": "https://sileotweak.github.io/package/NetworkSpeed/2.png",
+                            "url": "https://sileotweak.github.io/package/NetworkSpeed/shots/3.PNG",
                             "accessibilityText": "Screenshot2"
-                        },
-                        {
-                            "url": "https://sileotweak.github.io/package/NetworkSpeed/3.png",
-                            "accessibilityText": "Screenshot3"
                         }, 
                         {
-                            "url": "https://sileotweak.github.io/package/NetworkSpeed/4.png",
-                            "accessibilityText": "Screenshot4"
+                            "url": "https://sileotweak.github.io/package/NetworkSpeed/shots/4.PNG",
+                            "accessibilityText": "Screenshot2"
                         }
                     ],
                     "class": "DepictionScreenshotsView"
