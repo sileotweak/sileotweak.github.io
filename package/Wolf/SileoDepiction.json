@@ -1,6 +1,6 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://sileotweak.github.io/package/NetworkSpeed/SileoBanner.PNG",
+    "headerImage": "https://sileotweak.github.io/package/NetworkSpeed/SileoBanner.jpg",
     "tabs": [
         {
             "tabname": "Details",
