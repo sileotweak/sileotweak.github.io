@@ -131,7 +131,7 @@
                     "class":"DepictionButtonView",
                     "text":"official repo",
                     "tintColor":"#55B8C5",
-                    "action":"https://apt.thebigboss.org/repofiles/cydia"
+                    "action":"https://apt.thebigboss.org/repofiles/cydia/dists/stable"
                     "spacing": 20,
                     "class": "DepictionImageView"
                 },
