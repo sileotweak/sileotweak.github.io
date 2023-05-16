@@ -134,7 +134,7 @@
                     "action":"https://apt.thebigboss.org/repofiles/cydia/dists/stable" 
                 },
                 {
-                    "spacing": 20,
+                    "spacing": 40,
                     "class": "DepictionSeparatorView"
                 },
                 {
