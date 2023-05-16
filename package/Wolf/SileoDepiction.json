@@ -54,12 +54,12 @@
                     "class": "DepictionSpacerView"
                 },
                  {
-                    "text": "sileotweak",
+                    "text": "SileoTweak",
                     "title": "Maintainer",
                     "class": "DepictionTableTextView"
                 },
                 {
-                    "text": "johnzaro",
+                    "text": "Michael lima",
                     "title": "Developer",
                     "class": "DepictionTableTextView"
                 },

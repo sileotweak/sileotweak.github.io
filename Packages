@@ -99,7 +99,7 @@ Tag: purpose::extension
 Installed-Size: 11674
 Size: 2790372
 dev: lema
-Icon: file:///Library/Application%20Support/Wolf.bundle/wolf-icon@2x.png
+Icon: ./Library/Application%20Support/Wolf.bundle/wolf-icon@2x.png
 Filename: ./package/Wolf/Wolf.deb
 MD5:  8ebf41b7ecf8145466ea808cc8e659b5
 SHA1: 4a5b9489d48cb27a0dd37d1c203ac0e4a4d10084
