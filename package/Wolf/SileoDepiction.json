@@ -21,21 +21,14 @@
                     "itemSize": "{160, 275.41333333333336}",
                     "screenshots": [
                         {
-                            "url": "https://sileotweak.github.io/package/NetworkSpeed/shots/1.PNG",
-                            "accessibilityText": "Screenshot0"
-                        },
-                        {
-                            "url": "https://sileotweak.github.io/package/NetworkSpeed/shots/2.PNG",
+                            "url": "https://sileotweak.github.io/package/Wolf/1.png",
                             "accessibilityText": "Screenshot1"
                         },
                         {
-                            "url": "https://sileotweak.github.io/package/NetworkSpeed/shots/3.PNG",
-                            "accessibilityText": "Screenshot2"
-                        }, 
-                        {
-                            "url": "https://sileotweak.github.io/package/NetworkSpeed/shots/4.PNG",
+                            "url": "https://sileotweak.github.io/package/Wolf/2.png",
                             "accessibilityText": "Screenshot2"
                         }
+
                     ],
                     "class": "DepictionScreenshotsView"
                 },
