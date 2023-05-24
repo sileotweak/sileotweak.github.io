@@ -65,7 +65,7 @@ Version: 1.3.4-1
 Architecture: iphoneos-arm64
 Description: Remove/Fade Away the Ugly Home Bottom Bar of the iPhone X!
 SileoDepiction: http://sileotweak.github.io/package/ByeHomeBottomBarX/SileoDepiction.json
-Depiction: https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/ByeHomeBottomBarX/SileoDepiction.json&name=ByeHomeBottonBarX&dev=CydiaGeek
+Depiction: https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/ByeHomeBottonBarX/SileoDepiction.json&name=ByeHomeBottonBarX&dev=CydiaGeek
 Maintainer: SileoTweak
 Author: CydiaGeek <lucaluca86@aol.com>
 Section: Tweaks
