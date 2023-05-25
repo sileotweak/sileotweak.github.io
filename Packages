@@ -1,3 +1,21 @@
+Package: com.johnzaro.networkspeed13
+Section: Tweaks
+Installed-Size: 880
+Maintainer: SileoTweak
+Architecture: iphoneos-arm64
+Version: 3.0.8
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 12), libcolorpicker
+Description: Indicates states of Speed data on the stutesbar
+Name: NetworkSpeed
+Author: Johnzaro & lclrc
+SileoDepiction: https://sileotweak.github.io/package/NetworkSpeed/SileoDepiction.json
+Depiction: https://sileotweak.github.io/depiction/?NetworkSpeed
+Size: 504346
+MD5: 7edfbe59ba30eac29260ad5fed542cb1
+SHA1: 3d5349c7f4653265eaaa53343bfc0e055f934669
+SHA256: 8cb48cb0202622eb87e9cb2540db645cb79cf88415784a5504f1cd03d93ee31c
+Filename: ./package/NetworkSpeed/com.johnzaro.networkspeed13_3.0.8.deb
+
 Package: com.2nd.34306
 Name: 2nd
 Depends: mobilesubstrate
@@ -63,25 +81,6 @@ size: 14508
 MD5: 87cc79c3be11cf1a7b29b640e2be9ec1
 SHA1: 8e1b84a9cd33c24948a205253a0bdf6745523284
 SHA256: f5156a8b67d3c5245596c1ffc6002fde7b8ccedb6658770b577b92429b5c9ae7
-
-
-Package: com.johnzaro.networkspeed13
-Section: Tweaks
-Maintainer: Johnzaro
-Architecture: iphoneos-arm64
-Version: 3.0.8
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 12), org.thebigboss.libcolorpicker
-Description: Network Speed translated to English
-Name: NetworkSpeed
-Author: Johnzaro
-SileoDepiction: https://sileotweak.github.io/package/NetworkSpeed/SileoDepiction.json
-Depiction: https://sileotweak.github.io/depiction/?NetworkSpeed
-Installed-Size: 810
-Size: 504346 
-Filename: ./package/NetworkSpeed/NetworkSpeed.deb
-MD5:   7edfbe59ba30eac29260ad5fed542cb1
-SHA1: 3d5349c7f4653265eaaa53343bfc0e055f934669
-SHA256: 8cb48cb0202622eb87e9cb2540db645cb79cf88415784a5504f1cd03d93ee31c
 
 Name: Wolf 
 Package: com.lema.wolf
