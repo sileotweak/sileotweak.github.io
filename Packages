@@ -69,7 +69,7 @@ Package: com.johnzaro.networkspeed13
 Section: Tweaks
 Maintainer: Johnzaro
 Architecture: iphoneos-arm64
-Version: 3.0.6
+Version: 3.0.8
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 12), org.thebigboss.libcolorpicker
 Description: Network Speed translated to English
 Name: NetworkSpeed
@@ -77,11 +77,11 @@ Author: Johnzaro
 SileoDepiction: https://sileotweak.github.io/package/NetworkSpeed/SileoDepiction.json
 Depiction: https://sileotweak.github.io/depiction/?NetworkSpeed
 Installed-Size: 810
-Size: 478488 
+Size: 504346 
 Filename: ./package/NetworkSpeed/NetworkSpeed.deb
-MD5:   28a1ee4901e9ccf50383cdf864572c53
-SHA1: 458032e4c3e78f6cbde24ed53b47a87331f1a635
-SHA256: 17d6e8d5d44d4e04ed650e7439409bdd35254acbb8269ced804fccfa614cc377
+MD5:   7edfbe59ba30eac29260ad5fed542cb1
+SHA1: 3d5349c7f4653265eaaa53343bfc0e055f934669
+SHA256: 8cb48cb0202622eb87e9cb2540db645cb79cf88415784a5504f1cd03d93ee31c
 
 Name: Wolf 
 Package: com.lema.wolf
