@@ -1,0 +1,104 @@
+{
+    "class": "DepictionTabView",
+    "headerImage": "https://sileotweak.github.io/package/NetworkSpeed/SileoBanner.jpg",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "class": "DepictionStackView",
+            "views": [
+                
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "itemCornerRadius": 12,
+                    "itemSize": "{160, 275.41333333333336}",
+                    "screenshots": [
+                        {
+                            "url": "https://sileotweak.github.io/package/2nd/1.png",
+                            "accessibilityText": "Screenshot1"
+                        }
+                    ],
+                    "class": "DepictionScreenshotsView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "# 2nd Tweak\r\n### A simple tweak that enable day and date secondline in status bar.",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {  
+                 "class":"DepictionHeaderView",
+                 "title":"Information"
+                },
+                {
+                    "text": "Free",
+                    "title": "Lisence",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                 {
+                    "text": "SileoTweak",
+                    "title": "Maintainer",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "text": "34306",
+                    "title": "Developer",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "text": "56 KB",
+                    "title": "Size",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "text": "Tweaks",
+                    "title": "Section",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "text": "15.0-15.4.1",
+                    "title": "iOS Version",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "class":"DepictionButtonView",
+                    "text":"Orginal Repository",
+                    "tintColor":"#1ad4a2",
+                    "action":"https://34306.github.io/"
+                }
+                ,
+                {
+                    "class":"DepictionButtonView",
+                    "text":"Tweak Depiction",
+                    "tintColor":"#1ad4a2",
+                    "action":"https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/2nd/SileoDepiction.json&name=2nd&dev=34306"
+                },
+                {
+                    "class":"DepictionButtonView",
+                    "text":"Twitter",
+                    "tintColor":"#00CFF8",
+                    "action":"https://twitter.com/cydia05"
+                }
+                
+            ]
+        }
+    ],
+    "tintColor": "#54A4C4",
+    "minVersion": "0.1"
+}
