@@ -48,7 +48,7 @@
                 },
                 {
                     "text": "Free",
-                    "title": "Price",
+                    "title": "Lisence",
                     "class": "DepictionTableTextView"
                 },
                 {
@@ -56,7 +56,7 @@
                     "class": "DepictionSpacerView"
                 },
                  {
-                    "text": "sileotweak",
+                    "text": "SileoTweak",
                     "title": "Maintainer",
                     "class": "DepictionTableTextView"
                 },
@@ -70,8 +70,8 @@
                     "class": "DepictionSpacerView"
                 },
                 {
-                    "text": "MALIK",
-                    "title": "Designer",
+                    "text": "504 KB",
+                    "title": "Size",
                     "class": "DepictionTableTextView"
                 },
                 {
@@ -80,77 +80,33 @@
                     "class": "DepictionTableTextView"
                 },
                 {
+                    "text": "15.0-15.4.1",
+                    "title": "iOS Version",
+                    "class": "DepictionTableTextView"
+                },
+                {
                     "spacing": 8,
                     "class": "DepictionSpacerView"
                 },
                 {
                     "class":"DepictionButtonView",
+                    "text":"Orginal Repository",
+                    "tintColor":"#1ad4a2",
+                    "action":"https://lclrc.github.io/repo"
+                }
+                ,
+                {
+                    "class":"DepictionButtonView",
                     "text":"Tweak Depiction",
                     "tintColor":"#1ad4a2",
                     "action":"https://sileotweak.github.io/depiction/?NetworkSpeed"
-                }
-                
-            ]
-        },
-        {
-            "tabname": "Changes",
-            "class": "DepictionStackView",
-            "views": [
-                {
-                    "title": "Version 3.0.6",
-                    "useBoldText": true,
-                    "useBottomMargin": true,
-                    "class": "DepictionSubheaderView"
                 },
-                {
-                    "markdown": "Whats this?:\r\n\r\n* indicates download speed:\r\n* upload speed.",
-                    "useSpacing": false,
-                    "class": "DepictionMarkdownView"
-                },
-                {
-                    "markdown": "<small style=\"color: #999; margin-top: -8px;\">2023/5/14</small>",
-                    "useRawFormat": true,
-                    "class": "DepictionMarkdownView"
-                },
-                {
-                    "spacing": 20,
-                    "class": "DepictionSeparatorView"
-                }
-            ]
-        },
-        {
-            "tabname": "Contact",
-            "class": "DepictionStackView",
-            "views": [
-                
                 {
                     "class":"DepictionButtonView",
                     "text":"Twitter",
                     "tintColor":"#00CFF8",
                     "action":"https://twitter.com/cydia05"
-                },
-                {
-                    "class":"DepictionButtonView",
-                    "text":"official repo",
-                    "tintColor":"#55B8C5",
-                    "action":"https://lclrc.github.io/repo"
-                },
-                {
-                    "URL": "https://cydia05.github.io/repo/CydiaIcon.png",
-                    "width": 30,
-                    "height": 30,
-                    "alignment": 1,
-                    "cornerRadius": 10,
-                    "spacing": 20,
-                    "class": "DepictionImageView"
-                    
-                },
-                
-                {
-                    "markdown": "<small style=\"color: #aaa; font-size: 8pt;\">MALIK M</small><style>body { text-align: center; }</style>",
-                    "useRawFormat": true,
-                    "class": "DepictionMarkdownView"
-                }   
+                }
                 
             ]
         }
