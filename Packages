@@ -79,27 +79,6 @@ SHA256: cab902b22b7ee9de3eabe32401213d444a27863e7d13090595efb47ac5ca9eba
 dev: lucaluca86
 Icon: file:///Library/PreferenceBundles/ByeHomeBottomBarX.bundle/ByeHomeBottomBarX@2x.png
 
-Architecture: iphoneos-arm64
-Package: com.johnzaro.appstoreupdatestab13
-Name: AppStoreUpdatesTab
-Depiction: https://johnzaro.github.io/cydia/depiction/web/com.johnzaro.appstoreupdatestab13.html
-SileoDepiction: https://johnzaro.github.io/cydia/depiction/native/com.johnzaro.appstoreupdatestab13.json
-ModernDepiction: https://johnzaro.github.io/cydia/depiction/native/com.johnzaro.appstoreupdatestab13.json
-Icon: https://johnzaro.github.io/cydia/assets/com.johnzaro.appstoreupdatestab13/icon.png
-Description: Replace Arcade button with "Show Updates" button in the AppStore app
-Section: Tweaks
-Depends: firmware (>=13.0), mobilesubstrate
-Tags: compatible_min::ios13.0, compatible_max::ios13.6
-Author: Johnzaro  <johnzrgnns@gmail.com>
-Maintainer: Johnzaro  <johnzrgnns@gmail.com>
-Filename: ./package/AppstoreUpdatesTab/com.johnzaro.appstoreupdatestab13_1.2_iphoneos-arm64.deb
-Version: 1.2
-Installed-Size: 172
-Size: 6912
-MD5: 0853f4f2e4774bc3345f8a3b771bccc7
-SHA1: 756aba581522e45f22774f3dad0abe461d3bbf24
-SHA256: 46bc1bda4c5734423e87fce09de9306f970e612cdf56b5b24244ad523d1c229f
-
 Package: me.nepeta.axon
 Name: Axon
 Depends: mobilesubstrate, firmware (>= 11.0)
@@ -150,23 +129,6 @@ Size: 7776
 MD5: e6671c025180749c2868642026de85ae
 SHA1: ff5bd11a56f74433fb9ce365a639aadc1e2533c4
 SHA256: e0bdf228855847c3b187d8e154fb21e40cf76b770edbb030a1ff8f4c0907dd47
-
-Package: xyz.xninja.systeminfo
-Name: System Info
-Depends: mobilesubstrate
-Version: 2.7.2-2
-Architecture: iphoneos-arm64
-Description: System information in Settings app > General > About, and other sections. Set boot-nonce, save SHSH, battery info etc
-Depiction: https://arx8x.github.io/depictions/systeminfo.html
-Maintainer: SileoTweak
-Author: ARX8x
-Section: Tweaks
-Filename: ./package/SystemInfo/xyz.xninja.systeminfo_2.7.2-2_iphoneos-arm64.deb
-Installed-Size: 750
-Size: 368992 
-MD5: 53af70031634c49a8025620efc1b5a81
-SHA1: 87b028e952519e8b555b9224977aff174da2e22a
-SHA256: 6418a76d259f7403609b37c3855c91fd9604f5d6529ca3875d51f3c495e78076
 
 
 
