@@ -1,3 +1,36 @@
+Package: com.hoangdus.lowpowersleep
+Name: LowPowerSleep
+Description: Auto Enabe to LowPower when Screen locked 
+Maintainer: Hoangdus
+Author: Hoangdus
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Installed-Size: 208
+Size: 23054
+Filename: ./package/LowPowerSleep/com.hoangdus.lowpowersleep_0.0.1_iphoneos-arm64.deb
+MD5: 5a441627888c90248507880b79619d07
+SHA1: 084dbf595eed5ef33dc110f2818dcf7649aa3d25
+SHA256: 0acb801878ffa7cb928225ae77c5299d595bdd78ba3c5a0b8098f936932ed696
+
+Package: netskao.lowpowerbannertips.me
+Version: 1.1-3
+Section: Netskao-Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Installed-Size: 200
+Name: LowPowerBannerTips
+Author: Netskao
+Description: Replace LowPower window with notification banner on higher the screen
+Filename: ./package/LowPowerBannerTips/netskao.lowpowerbannertips-rootless_1.1-3_iphoneos-arm64.deb
+size: 14508
+MD5: 87cc79c3be11cf1a7b29b640e2be9ec1
+SHA1: 8e1b84a9cd33c24948a205253a0bdf6745523284
+SHA256: f5156a8b67d3c5245596c1ffc6002fde7b8ccedb6658770b577b92429b5c9ae7
+
+
 Package: com.johnzaro.networkspeed13
 Section: Tweaks
 Maintainer: Johnzaro
