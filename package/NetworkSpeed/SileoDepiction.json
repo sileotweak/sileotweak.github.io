@@ -6,12 +6,7 @@
             "tabname": "Details",
             "class": "DepictionStackView",
             "views": [
-                {
-                    "class": "DepictionSubheaderView",
-                    "title": "NetworkSpeed Net speed indicator",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
+                
                 {
                     "spacing": 8,
                     "class": "DepictionSpacerView"
