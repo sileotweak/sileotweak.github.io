@@ -78,3 +78,95 @@ SHA1: f507534f108f9419cae8443d97ce0438429e5fcc
 SHA256: cab902b22b7ee9de3eabe32401213d444a27863e7d13090595efb47ac5ca9eba
 dev: lucaluca86
 Icon: file:///Library/PreferenceBundles/ByeHomeBottomBarX.bundle/ByeHomeBottomBarX@2x.png
+
+Architecture: iphoneos-arm64
+Package: com.johnzaro.appstoreupdatestab13
+Name: AppStoreUpdatesTab
+Depiction: https://johnzaro.github.io/cydia/depiction/web/com.johnzaro.appstoreupdatestab13.html
+SileoDepiction: https://johnzaro.github.io/cydia/depiction/native/com.johnzaro.appstoreupdatestab13.json
+ModernDepiction: https://johnzaro.github.io/cydia/depiction/native/com.johnzaro.appstoreupdatestab13.json
+Icon: https://johnzaro.github.io/cydia/assets/com.johnzaro.appstoreupdatestab13/icon.png
+Description: Replace Arcade button with "Show Updates" button in the AppStore app
+Section: Tweaks
+Depends: firmware (>=13.0), mobilesubstrate
+Tags: compatible_min::ios13.0, compatible_max::ios13.6
+Author: Johnzaro  <johnzrgnns@gmail.com>
+Maintainer: Johnzaro  <johnzrgnns@gmail.com>
+Filename: ./package/AppstoreUpdatesTab/com.johnzaro.appstoreupdatestab13_1.2_iphoneos-arm64.deb
+Version: 1.2
+Installed-Size: 172
+Size: 6912
+MD5: 0853f4f2e4774bc3345f8a3b771bccc7
+SHA1: 756aba581522e45f22774f3dad0abe461d3bbf24
+SHA256: 46bc1bda4c5734423e87fce09de9306f970e612cdf56b5b24244ad523d1c229f
+
+Package: me.nepeta.axon
+Name: Axon
+Depends: mobilesubstrate, firmware (>= 11.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
+Description: Priority Hub for iOS 15 (rootless/Ellekit)
+Maintainer: Baw Appie
+Author: Nepeta & Baw Appie
+Section: Tweaks
+Filename: ./package/Axon/me.nepeta.axon_1.4-1_iphoneos-arm64.deb
+Architecture: iphoneos-arm64
+Version: 1.4-1
+Installed-Size: 644
+Size: 140762
+MD5: b23cb378d16ef6ed8bb7553fd2af16cf
+SHA1: 0d45fd68eec361771fc13af38d38da365d8013a6
+SHA256: 71820fd713ee6035b24cbcd41841aadc42bd4387332151ec8864435fa2e10ef6
+
+Package: com.shepgoba.downloadbar13
+Name: DownloadBar13
+Description: Show a progress bar for downloading apps instead! Confirmed worked on iOS 15/rootless.
+Maintainer: alias20
+Author: shepgoba
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Filename: ./package/DownloadBar/com.shepgoba.downloadbar13_1.0.2_iphoneos-arm64.deb
+Version: 1.0.2
+Installed-Size: 168
+Size: 5676
+MD5: 7863f88a33bf53b0cb6ae34283b5f570
+SHA1: c3324a619006bd387ab5f6d84431a63625a9e4a6
+SHA256: fcbda154ec108da873bb9debc4ff03b0f5d4a8afd3409333f2292e08dd7f98e1
+
+Package: com.miro.searchy
+Name: Searchy
+Depends: firmware (>=13.0), mobilesubstrate
+Depiction: https://miro92.com/repo/depictions/?p=com.miro.searchy
+Description: Adds a search bar into the "Recents" tab in the Phone app.
+Architecture: iphoneos-arm64
+Maintainer: MiRO <tweaks_support@miro92.com>
+Author: MiRO <tweaks_support@miro92.com>
+Section: Tweaks
+Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
+Filename: ./package/Searchy/com.miro.searchy_1.0.2_iphoneos-arm64.deb
+Version: 1.0.2
+Installed-Size: 168
+Size: 7776
+MD5: e6671c025180749c2868642026de85ae
+SHA1: ff5bd11a56f74433fb9ce365a639aadc1e2533c4
+SHA256: e0bdf228855847c3b187d8e154fb21e40cf76b770edbb030a1ff8f4c0907dd47
+
+Package: xyz.xninja.systeminfo
+Name: System Info
+Depends: mobilesubstrate
+Version: 2.7.2-2
+Architecture: iphoneos-arm64
+Description: System information in Settings app > General > About, and other sections. Set boot-nonce, save SHSH, battery info etc
+Depiction: https://arx8x.github.io/depictions/systeminfo.html
+Maintainer: SileoTweak
+Author: ARX8x
+Section: Tweaks
+Filename: ./package/SystemInfo/xyz.xninja.systeminfo_2.7.2-2_iphoneos-arm64.deb
+Installed-Size: 750
+Size: 368992 
+MD5: 53af70031634c49a8025620efc1b5a81
+SHA1: 87b028e952519e8b555b9224977aff174da2e22a
+SHA256: 6418a76d259f7403609b37c3855c91fd9604f5d6529ca3875d51f3c495e78076
+
+
+
