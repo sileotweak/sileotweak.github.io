@@ -26,6 +26,7 @@ Architecture: iphoneos-arm64
 Version: 3.0.8
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 12), org.thebigboss.libcolorpicker
 Description: Indicates states of Speed data on the stutesbar
+Icon: https://sileotweak.github.io/package/NetworkSpeed/icon.png
 Name: NetworkSpeed
 Author: Johnzaro & lclrc
 SileoDepiction: https://sileotweak.github.io/package/NetworkSpeed/SileoDepiction.json
@@ -43,6 +44,7 @@ Description: A simple tweak that enable day and date secondline in status bar
 Maintainer: SileoTweak 
 Author: 34306
 Section: Tweaks
+Icon: https://sileotweak.github.io/package/2nd/icon.png
 SileoDepiction: https://sileotweak.github.io/package/2nd/SileoDepiction.json
 Depiction: https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/2nd/SileoDepiction.json&name=2nd&dev=34306
 Architecture: iphoneos-arm64
@@ -62,6 +64,7 @@ Description: Switching between Appstore Accounts easily.
 Maintainer: SileoTweak <https://sileotweak.github.io>
 Author: subdiox
 Section: Tweaks
+Icon: https://sileotweak.github.io/package/StoreSwitcher/icon.png
 Depiction: https://repo.lenglengyu.top/packageInfo/storeswitcher2-rootless.html
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/storeswitcher2-rootlesssileo
 Version: 1.0.2
@@ -110,6 +113,7 @@ Priority: optional
 Depends: mobilesubstrate, firmware (>= 5.0)
 Version: 2.1
 Architecture: iphoneos-arm64
+Icon: https://sileotweak.github.io/package/Wolf/icon.png
 Description: The all-in-one tweak for Facebook
 SileoDepiction: https://sileotweak.github.io/package/Wolf/SileoDepiction.json
 Depiction: https://sileotweak.github.io/depiction/?Wolf
@@ -147,6 +151,7 @@ SHA256: dbebae8152c4bd8400e5c461ef3be0d455571b3b7dd24a8f671d1911bf828295
 
 Name: ByeHomeBottomBarX
 Package: com.cydiageek.byehomebottombarx
+Icon: https://sileotweak.github.io/package/ByeHomeBottomBarX/icon.png
 Priority: optional
 Depends: mobilesubstrate, firmware (>= 11.0), org.thebigboss.libcolorpicker
 Version: 1.3.4-1
@@ -168,6 +173,7 @@ dev: lucaluca86
 Icon: file:///Library/PreferenceBundles/ByeHomeBottomBarX.bundle/ByeHomeBottomBarX@2x.png
 
 Package: me.nepeta.axon
+Icon: https://sileotweak.github.io/package/Axon/icon.png
 Name: Axon
 Depends: mobilesubstrate, firmware (>= 11.0)
 Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
@@ -185,6 +191,7 @@ SHA1: 0d45fd68eec361771fc13af38d38da365d8013a6
 SHA256: 71820fd713ee6035b24cbcd41841aadc42bd4387332151ec8864435fa2e10ef6
 
 Package: com.shepgoba.downloadbar13
+Icon: https://sileotweak.github.io/package/DownloadBar/icon.png
 Name: DownloadBar13
 Description: Show a progress bar for downloading apps instead! Confirmed worked on iOS 15/rootless.
 Maintainer: alias20
