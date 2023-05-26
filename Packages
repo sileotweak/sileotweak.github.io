@@ -9,6 +9,9 @@ Architecture: iphoneos-arm64
 Version: 1.0
 Installed-Size: 460
 Size: 12436
+Icon: https://sileotweak.github.io/package/NoAdsSocialApps/icon.png
+SileoDepiction: https://sileotweak.github.io/package/NoAdsSocialApps/SileoDepiction.json
+Depiction: https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/NoAdsSocialApps/SileoDepiction.json&name=NoAdsSocialApps&dev=PK2Dev
 MD5: 5b9f9a00ede159df88a66d1b635d338e
 SHA1:108f798504778540b8c41233cf14e726c89ff68d
 SHA256: 25eecb75c1c40f0d562ddaa2a9975ee282c32cb3d355a3cd08eeb46c24cc8b9b
