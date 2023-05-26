@@ -79,6 +79,10 @@
                     "class": "DepictionSpacerView"
                 },
                 {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
                    
                     "title":"Orginal Repository",
                     "tintColor":"#03a5aa",
@@ -94,7 +98,7 @@
                 },
                 {
                    
-                    "text":"Twitter",
+                    "title":"Twitter",
                     "tintColor":"#00CFF8",
                     "action":"https://twitter.com/cydia05",
                     "class": "DepictionTableButtonView"
