@@ -78,6 +78,10 @@
                 {
                     "class": "DepictionSeparatorView"
                 },
+                {  
+                 "class":"DepictionHeaderView",
+                 "title":"Sources"
+                },
                 
                 {
                    
