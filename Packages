@@ -191,7 +191,6 @@ SHA1: 0d45fd68eec361771fc13af38d38da365d8013a6
 SHA256: 71820fd713ee6035b24cbcd41841aadc42bd4387332151ec8864435fa2e10ef6
 
 Package: com.shepgoba.downloadbar13
-Icon: https://sileotweak.github.io/package/DownloadBar/icon.png
 Name: DownloadBar13
 Description: Show a progress bar for downloading apps instead! Confirmed worked on iOS 15/rootless.
 Maintainer: alias20
@@ -205,6 +204,7 @@ Filename: ./package/DownloadBar/com.shepgoba.downloadbar13_1.0.2_iphoneos-arm64.
 Version: 1.0.2
 Installed-Size: 168
 Size: 5676
+Icon: https://sileotweak.github.io/package/DownloadBar/icon.png
 MD5: 7863f88a33bf53b0cb6ae34283b5f570
 SHA1: c3324a619006bd387ab5f6d84431a63625a9e4a6
 SHA256: fcbda154ec108da873bb9debc4ff03b0f5d4a8afd3409333f2292e08dd7f98e1
