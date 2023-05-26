@@ -192,6 +192,8 @@ Author: shepgoba
 Section: Tweaks
 Depends: mobilesubstrate
 Architecture: iphoneos-arm64
+SileoDepiction: https://sileotweak.github.io/package/DownloadBar/SileoDepiction.json
+Depiction: https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/DownloadBar/SileoDepiction.json&name=DownloadBar&dev=shepgoba
 Filename: ./package/DownloadBar/com.shepgoba.downloadbar13_1.0.2_iphoneos-arm64.deb
 Version: 1.0.2
 Installed-Size: 168

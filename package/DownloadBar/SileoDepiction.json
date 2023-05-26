@@ -1,0 +1,108 @@
+{
+    "class": "DepictionTabView",
+    "headerImage": "https://sileotweak.github.io/package/DownloadBar/SileoBanner.jpg",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "class": "DepictionStackView",
+            "views": [
+                
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "itemCornerRadius": 12,
+                    "itemSize": "{160, 275.41333333333336}",
+                    "screenshots": [
+                        {
+                            "url": "https://sileotweak.github.io/package/DownloadBar/1.png",
+                            "accessibilityText": "Screenshot1"
+                        }
+
+                    ],
+                    "class": "DepictionScreenshotsView"
+                },
+               
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "# DownloadBar\r\n### Show a progress bar for downloading apps instead!.\r\n\r\n worked on iOS 15/rootless.",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {  
+                 "class":"DepictionHeaderView",
+                 "title":"Information"
+                },
+                {
+                    "text": "Free",
+                    "title": "Lisence",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                 {
+                    "text": "SileoTweak",
+                    "title": "Maintainer",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "text": "shepgoba",
+                    "title": "Developer",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "text": "57 KB",
+                    "title": "Size",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "text": "Tweaks",
+                    "title": "Section",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "text": "15.0-15.4.1",
+                    "title": "iOS Version",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                   
+                    "title":"Orginal Repository",
+                    "tintColor":"#03a5aa",
+                    "action":"https://alias20.github.io/apt",
+                    "class": "DepictionTableButtonView"
+                }
+                ,
+                {
+                    "title":"Tweak Depiction",
+                    "tintColor":"#03a5aa",
+                    "action":"https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/DownloadBar/SileoDepiction.json&name=DownloadBar&dev=shepgoba",
+                    "class": "DepictionTableButtonView"
+                },
+                {
+                   
+                    "text":"Twitter",
+                    "tintColor":"#00CFF8",
+                    "action":"https://twitter.com/cydia05",
+                    "class": "DepictionTableButtonView"
+                }
+                
+            ]
+        }
+    ],
+    "tintColor": "#03a5aa",
+    "minVersion": "0.1"
+}
