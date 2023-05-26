@@ -74,14 +74,11 @@
                     "title": "iOS Version",
                     "class": "DepictionTableTextView"
                 },
+                
                 {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
+                    "class": "DepictionSeparatorView"
                 },
-                {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
-                },
+                
                 {
                    
                     "title":"Orginal Repository",
