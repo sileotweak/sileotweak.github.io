@@ -31,7 +31,11 @@
                     },
                     "class":"DepictionScreenshotsView"
                 },
-               
+                
+                {
+                    "class": "DepictionSeparatorView"
+                },
+            
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "# DownloadBar\r\n### Show a progress bar for downloading apps instead!.\r\n\r\n \u00b7Worked on iOS 15/rootless.",
