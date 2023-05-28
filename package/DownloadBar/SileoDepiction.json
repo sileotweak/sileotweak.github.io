@@ -8,25 +8,33 @@
             "views": [
                 
                 {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
-                },
-                {
-                    "itemCornerRadius": 12,
-                    "itemSize": "{160, 275.41333333333336}",
-                    "screenshots": [
+                    "itemCornerRadius":8,
+                    "itemSize":"{195, 385}",
+                    "screenshots":[
                         {
-                            "url": "https://sileotweak.github.io/package/DownloadBar/1.png",
-                            "accessibilityText": "Screenshot1"
+                            "accessibilityText":"Screenshot",
+                            "url":"https://sileotweak.github.io/package/DownloadBar/1.png",
+                            "fullSizeURL":"https://sileotweak.github.io/package/DownloadBar/1.png"
                         }
-
                     ],
-                    "class": "DepictionScreenshotsView"
+                    "ipad":{
+                        "itemCornerRadius":9,
+                        "itemSize":"{320, 550.8266666666667}",
+                        "screenshots":[
+                            {
+                                "accessibilityText":"Screenshot",
+                                "url":"https://sileotweak.github.io/package/DownloadBar/1.png",
+                                "fullSizeURL":"https://sileotweak.github.io/package/DownloadBar/1.png"
+                            }
+                        ],
+                        "class":"DepictionScreenshotView"
+                    },
+                    "class":"DepictionScreenshotsView"
                 },
                
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "# DownloadBar\r\n### Show a progress bar for downloading apps instead!.\r\n\r\n worked on iOS 15/rootless.",
+                    "markdown": "# DownloadBar\r\n### Show a progress bar for downloading apps instead!.\r\n\r\n \u00b7Worked on iOS 15/rootless.",
                     "useSpacing": true
                 },
                 {
@@ -93,7 +101,7 @@
                 ,
                 {
                     "title":"Tweak Depiction",
-                    "tintColor":"#03a5aa",
+                    "tintColor":"#ffffff",
                     "action":"https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/DownloadBar/SileoDepiction.json&name=DownloadBar&dev=shepgoba",
                     "class": "DepictionTableButtonView"
                 },
