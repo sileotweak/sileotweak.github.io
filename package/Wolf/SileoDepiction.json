@@ -7,30 +7,42 @@
             "class": "DepictionStackView",
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "screenshots",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
-                },
-                {
-                    "itemCornerRadius": 12,
-                    "itemSize": "{160, 275.41333333333336}",
-                    "screenshots": [
+                        "itemCornerRadius":8,
+                        "itemSize":"{195, 385}",
+                        "screenshots":[
                         {
-                            "url": "https://sileotweak.github.io/package/Wolf/1.png",
-                            "accessibilityText": "Screenshot1"
+                            "accessibilityText":"Screenshot",
+                            "url":"https://sileotweak.github.io/package/NetworkSpeed/1.png",
+                            "fullSizeURL":"https://sileotweak.github.io/package/NetworkSpeed/1.png"
                         },
                         {
-                            "url": "https://sileotweak.github.io/package/Wolf/2.png",
-                            "accessibilityText": "Screenshot2"
+                            "accessibilityText":"Screenshot",
+                            "url":"https://sileotweak.github.io/package/NetworkSpeed/2.png",
+                            "fullSizeURL":"https://sileotweak.github.io/package/NetworkSpeed/2.png"
                         }
-
+                      
                     ],
-                    "class": "DepictionScreenshotsView"
+                        "ipad":{
+                        "itemCornerRadius":9,
+                        "itemSize":"{320, 550.8266666666667}",
+                        "screenshots":[
+                            {
+                                "accessibilityText":"Screenshot",
+                                "url":"https://sileotweak.github.io/package/Wolf/1.png",
+                                "fullSizeURL":"https://sileotweak.github.io/package/Wolf/1.png"
+                            },
+                            {
+                                "accessibilityText":"Screenshot",
+                                "url":"https://sileotweak.github.io/package/Wolh/2.png",
+                                "fullSizeURL":"https://sileotweak.github.io/package/Wolf/2.png"
+                            }
+                        ],
+                        "class":"DepictionScreenshotView"
+                    },
+                    "class":"DepictionScreenshotsView"
+                },
+                {
+                    "class": "DepictionSeparatorView"
                 },
                 {
                     "class": "DepictionMarkdownView",
@@ -46,13 +58,10 @@
                 },
                 {
                     "text": "Free",
-                    "title": "Price",
+                    "title": "License",
                     "class": "DepictionTableTextView"
                 },
-                {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
-                },
+              
                  {
                     "text": "SileoTweak",
                     "title": "Maintainer",
@@ -63,12 +72,9 @@
                     "title": "Developer",
                     "class": "DepictionTableTextView"
                 },
+              
                 {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
-                },
-                {
-                    "text": "iOS 15.0 - iOS 15.4.1",
+                    "text": "15.0-15.4.1",
                     "title": "Version supported",
                     "class": "DepictionTableTextView"
                 },
@@ -77,81 +83,63 @@
                     "title": "Section",
                     "class": "DepictionTableTextView"
                 },
+               
                 {
-                    "spacing": 8,
+                    "class": "DepictionSeparatorView"
+                },
+
+                {  
+                 "class":"DepictionHeaderView",
+                 "title":"Sources"
+                },
+    
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {  
+                 "class":"DepictionHeaderView",
+                 "title":"Sources"
+                },
+                {
+                    "title":"Orginal Repository",
+                    "tintColor":"#55B8C5",
+                    "action":"https://apt.thebigboss.org/repofiles/cydia/dists/stable" ,
+                    "class": "DepictionTableButtonView"
+                },
+                {
+                    "title":"Tweak Depiction",
+                    "tintColor":"#ffffff",
+                    "action":"https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/Wolf/SileoDepiction.json&name=Wolfr&dev=Michael%20Lema",
+                    "class": "DepictionTableButtonView"
+                },
+                {
+                    "title":"Twitter",
+                    "tintColor":"#00CFF8",
+                    "action":"https://twitter.com/cydia05",
+                    "class": "DepictionTableButtonView"
+                },
+
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "spacing": 16,
                     "class": "DepictionSpacerView"
                 },
                 {
-                    "class":"DepictionButtonView",
-                    "text":"Tweak Depiction",
-                    "tintColor":"#1ad4a2",
-                    "action":"https://sileotweak.github.io/depiction/?Wolf"
-                }
-                
-            ]
-        },
-        {
-            "tabname": "Changes",
-            "class": "DepictionStackView",
-            "views": [
-                {
-                    "title": "Version 2.1",
-                    "useBoldText": true,
-                    "useBottomMargin": true,
-                    "class": "DepictionSubheaderView"
-                },
-                {
-                    "markdown": "Whats new ?:\r\n\r\n* fixes bugs speed:\r\n* support rotless jailbreak.",
-                    "useSpacing": false,
-                    "class": "DepictionMarkdownView"
-                },
-                {
-                    "markdown": "<small style=\"color: #999; margin-top: -8px;\">2023/5/16</small>",
-                    "useRawFormat": true,
-                    "class": "DepictionMarkdownView"
-                },
-                {
-                    "spacing": 20,
-                    "class": "DepictionSeparatorView"
-                }
-            ]
-        },
-        {
-            "tabname": "Contact",
-            "class": "DepictionStackView",
-            "views": [
-                
-                {
-                    "class":"DepictionButtonView",
-                    "text":"Twitter",
-                    "tintColor":"#00CFF8",
-                    "action":"https://twitter.com/cydia05"
-                },
-                {
-                    "class":"DepictionButtonView",
-                    "text":"official repo",
-                    "tintColor":"#55B8C5",
-                    "action":"https://apt.thebigboss.org/repofiles/cydia/dists/stable" 
-                },
-                {
-                    "spacing": 40,
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "URL": "https://pbs.twimg.com/profile_images/1503135375526662144/Cy4VEKAL_400x400.jpg",
-                    "width": 30,
-                    "height": 30,
+                    "URL": "https://sileotweak.github.io/CydiaIcon.png",
+                    "width": 40,
+                    "height": 40,
                     "alignment": 1,
-                    "cornerRadius": 10,
+                    "cornerRadius": 3,
                     "class": "DepictionImageView"
-                    
-                },
-                
-                {
-                    "markdown": "<small style=\"color: #aaa; font-size: 8pt;\">MALIK M</small><style>body { text-align: center; }</style>",
+                  },
+                  {
+                    "markdown": "<small style=\"color: #aaa; font-size: 8pt;\">SileoTweak Repository ©2020-2023</small><style>body { text-align: center; }</style>",
                     "useRawFormat": true,
                     "class": "DepictionMarkdownView"
-                }   
+                }
+                 
                 
             ]
         }
