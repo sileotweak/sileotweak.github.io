@@ -31,7 +31,7 @@
                     },
                     "class":"DepictionScreenshotsView"
                 },
-                
+
                 {
                     "class": "DepictionSeparatorView"
                 },
@@ -53,10 +53,7 @@
                     "title": "License",
                     "class": "DepictionTableTextView"
                 },
-                {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
-                },
+                
                  {
                     "text": "SileoTweak",
                     "title": "Maintainer",
@@ -67,10 +64,7 @@
                     "title": "Developer",
                     "class": "DepictionTableTextView"
                 },
-                {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
-                },
+                
                 {
                     "text": "57 KB",
                     "title": "Size",
@@ -115,6 +109,26 @@
                     "tintColor":"#00CFF8",
                     "action":"https://twitter.com/cydia05",
                     "class": "DepictionTableButtonView"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "spacing": 16,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "URL": "https://sileotweak.github.io/CydiaIcon.png",
+                    "width": 40,
+                    "height": 40,
+                    "alignment": 1,
+                    "cornerRadius": 2.5,
+                    "class": "DepictionImageView"
+                  },
+                  {
+                    "markdown": "<small style=\"color: #aaa; font-size: 8pt;\">SileoTweak Repository ©2020-2023</small><style>body { text-align: center; }</style>",
+                    "useRawFormat": true,
+                    "class": "DepictionMarkdownView"
                 }
                 
             ]
