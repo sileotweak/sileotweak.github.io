@@ -71,10 +71,7 @@
                     "title": "Lisence",
                     "class": "DepictionTableTextView"
                 },
-                {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
-                },
+                
                  {
                     "text": "SileoTweak",
                     "title": "Maintainer",
@@ -85,10 +82,7 @@
                     "title": "Developer",
                     "class": "DepictionTableTextView"
                 },
-                {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
-                },
+                
                 {
                     "text": "504 KB",
                     "title": "Size",
