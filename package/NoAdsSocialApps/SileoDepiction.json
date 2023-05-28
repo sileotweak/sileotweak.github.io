@@ -29,50 +29,62 @@
                     "title": "Lisence",
                     "class": "DepictionTableTextView"
                 },
+
+             
                 {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
-                },
-                 {
                     "text": "SileoTweak",
                     "title": "Maintainer",
                     "class": "DepictionTableTextView"
                 },
+
+
                 {
                     "text": "PK2Dev",
                     "title": "Developer",
                     "class": "DepictionTableTextView"
                 },
-                {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
-                },
+
+              
                 {
                     "text": "124 KB",
                     "title": "Size",
                     "class": "DepictionTableTextView"
                 },
+
+
                 {
                     "text": "Tweaks",
                     "title": "Section",
                     "class": "DepictionTableTextView"
                 },
+
+
                 {
                     "text": "15.0-15.4.1",
                     "title": "iOS Version",
                     "class": "DepictionTableTextView"
                 },
+
+
+                
                 {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
+                    "class": "DepictionSeparatorView"
                 },
+
+
+                
+                {  
+                 "class":"DepictionHeaderView",
+                 "title":"Sources"
+                },
+
+
                 {
                     "title":"Orginal Repository",
                     "tintColor":"#1ad4a2",
                     "action":"https://pk2dev.github.io/repo",
                     "class": "DepictionTableButtonView"
-                }
-                ,
+                },  
                 {
                     "title":"Tweak Depiction",
                     "tintColor":"#1ad4a2",
@@ -84,8 +96,9 @@
                     "tintColor":"#00CFF8",
                     "action":"https://twitter.com/cydia05",
                     "class": "DepictionTableButtonView"
-                }
-                ,
+                },
+                
+
                 {
                     "class": "DepictionSeparatorView"
                 },
@@ -93,6 +106,8 @@
                     "spacing": 16,
                     "class": "DepictionSpacerView"
                 },
+
+                
                 {
                     "URL": "https://sileotweak.github.io/CydiaIcon.png",
                     "width": 40,
