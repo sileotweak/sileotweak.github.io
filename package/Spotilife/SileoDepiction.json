@@ -103,7 +103,7 @@
                 {
                   
                     "title":"Twitter",
-                    "tintColor":"#00CFF8",
+                    "tintColor":"#1da1f2",
                     "action":"https://twitter.com/cydia05",
                     "class": "DepictionTableButtonView"
                 },
