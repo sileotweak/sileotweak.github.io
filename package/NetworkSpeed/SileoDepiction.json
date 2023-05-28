@@ -104,20 +104,20 @@
                 },
                 {
                     "title":"Orginal Repository",
-                    "tintColor":"#1ad4a2",
+                    "tintColor":"#0e9af1",
                     "action":"https://lclrc.github.io/repo",
                     "class": "DepictionTableButtonView"
                 }
                 ,
                 {
                     "title":"Tweak Depiction",
-                    "tintColor":"#1ad4a2",
+                    "tintColor":"#0e9af1",
                     "action":"https://sileotweak.github.io/depiction/?NetworkSpeed",
                     "class": "DepictionTableButtonView"
                 },
                 {
                     "title":"Twitter",
-                    "tintColor":"#00CFF8",
+                    "tintColor":"#0e9af1",
                     "action":"https://twitter.com/cydia05",
                     "class": "DepictionTableButtonView"
                 }

@@ -92,21 +92,21 @@
                 {
                    
                     "title":"Orginal Repository",
-                    "tintColor":"#03a5aa",
+                    "tintColor":"#0e9af1",
                     "action":"https://alias20.github.io/apt",
                     "class": "DepictionTableButtonView"
                 }
                 ,
                 {
                     "title":"Tweak Depiction",
-                    "tintColor":"#ffffff",
+                    "tintColor":"#0e9af1",
                     "action":"https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/DownloadBar/SileoDepiction.json&name=DownloadBar&dev=shepgoba",
                     "class": "DepictionTableButtonView"
                 },
                 {
                    
                     "title":"Twitter",
-                    "tintColor":"#00CFF8",
+                    "tintColor":"#0e9af1",
                     "action":"https://twitter.com/cydia05",
                     "class": "DepictionTableButtonView"
                 },
