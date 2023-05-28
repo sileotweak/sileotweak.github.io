@@ -81,19 +81,19 @@
 
                 {
                     "title":"Orginal Repository",
-                    "tintColor":"#0e9af1",
+                    "tintColor":"#1da1f2",
                     "action":"https://pk2dev.github.io/repo",
                     "class": "DepictionTableButtonView"
                 },  
                 {
                     "title":"Tweak Depiction",
-                    "tintColor":"#0e9af1",
+                    "tintColor":"#1da1f2",
                     "action":"https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/NoAdsSocialApps/SileoDepiction.json&name=NoAdsSocialApps&dev=PK2Dev",
                     "class": "DepictionTableButtonView"
                 },
                 {
                     "title":"Twitter",
-                    "tintColor":"#0e9af1",
+                    "tintColor":"#1da1f2",
                     "action":"https://twitter.com/cydia05",
                     "class": "DepictionTableButtonView"
                 },

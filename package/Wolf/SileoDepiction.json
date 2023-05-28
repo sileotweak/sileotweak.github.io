@@ -95,19 +95,19 @@
     
                 {
                     "title":"Orginal Repository",
-                    "tintColor":"#0e9af1",
+                    "tintColor":"#1da1f2",
                     "action":"https://apt.thebigboss.org/repofiles/cydia/dists/stable" ,
                     "class": "DepictionTableButtonView"
                 },
                 {
                     "title":"Tweak Depiction",
-                    "tintColor":"#0e9af1",
+                    "tintColor":"#1da1f2",
                     "action":"https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/Wolf/SileoDepiction.json&name=Wolf&dev=Michael%20Lema",
                     "class": "DepictionTableButtonView"
                 },
                 {
                     "title":"Twitter",
-                    "tintColor":"#0e9af1",
+                    "tintColor":"#1da1f2",
                     "action":"https://twitter.com/cydia05",
                     "class": "DepictionTableButtonView"
                 },
