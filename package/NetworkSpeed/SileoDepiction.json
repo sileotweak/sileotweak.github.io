@@ -99,8 +99,14 @@
                     "class": "DepictionTableTextView"
                 },
                 {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
+                    "class": "DepictionSeparatorView"
+                },
+
+
+                
+                {  
+                 "class":"DepictionHeaderView",
+                 "title":"Sources"
                 },
                 {
                     "title":"Orginal Repository",
