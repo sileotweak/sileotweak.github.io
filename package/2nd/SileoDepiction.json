@@ -1,6 +1,6 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://sileotweak.github.io/package/NetworkSpeed/SileoBanner.jpg",
+    "headerImage": "https://sileotweak.github.io/package/2nd/SileoBanner.jpg",
     "tabs": [
         {
             "tabname": "Details",
@@ -8,23 +8,37 @@
             "views": [
                 
                 {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
-                },
-                {
-                    "itemCornerRadius": 12,
-                    "itemSize": "{160, 275.41333333333336}",
-                    "screenshots": [
+                    "itemCornerRadius":8,
+                    "itemSize":"{195, 385}",
+                    "screenshots":[
                         {
-                            "url": "https://sileotweak.github.io/package/2nd/1.png",
-                            "accessibilityText": "Screenshot1"
+                            "accessibilityText":"Screenshot",
+                            "url":"https://sileotweak.github.io/package/2nd/1.png",
+                            "fullSizeURL":"https://sileotweak.github.io/package/2nd/1.png"
                         }
                     ],
-                    "class": "DepictionScreenshotsView"
+                    "ipad":{
+                        "itemCornerRadius":9,
+                        "itemSize":"{320, 550.8266666666667}",
+                        "screenshots":[
+                            {
+                                "accessibilityText":"Screenshot",
+                                "url":"https://sileotweak.github.io/package/2nd/1.png",
+                                "fullSizeURL":"https://sileotweak.github.io/package/2nd/1.png"
+                            }
+                        ],
+                        "class":"DepictionScreenshotView"
+                    },
+                    "class":"DepictionScreenshotsView"
                 },
+
+                {
+                    "class": "DepictionSeparatorView"
+                },
+            
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "# 2nd Tweak\r\n### A simple tweak that enable day and date secondline in status bar.",
+                    "markdown": "# 2nd \r\n### A simple tweak that enable day and date secondline in status bar.\r\n\r\n \u00b7Work on iOS 15/rootless.",
                     "useSpacing": true
                 },
                 {
@@ -36,13 +50,10 @@
                 },
                 {
                     "text": "Free",
-                    "title": "Lisence",
+                    "title": "License",
                     "class": "DepictionTableTextView"
                 },
-                {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
-                },
+                
                  {
                     "text": "SileoTweak",
                     "title": "Maintainer",
@@ -53,13 +64,10 @@
                     "title": "Developer",
                     "class": "DepictionTableTextView"
                 },
+                
                 {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
-                },
-                {
-                    "text": "56 KB",
-                    "title": "Size",
+                    "text": "148 KB",
+                    "title": "Installed-Size",
                     "class": "DepictionTableTextView"
                 },
                 {
@@ -72,33 +80,60 @@
                     "title": "iOS Version",
                     "class": "DepictionTableTextView"
                 },
+                
                 {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
+                    "class": "DepictionSeparatorView"
                 },
+                {  
+                 "class":"DepictionHeaderView",
+                 "title":"Sources"
+                },
+                
                 {
-                    "class":"DepictionButtonView",
-                    "text":"Orginal Repository",
-                    "tintColor":"#1ad4a2",
-                    "action":"https://34306.github.io/"
+                   
+                    "title":"Orginal Repository",
+                    "tintColor":"#1da1f2",
+                    "action":"https://34306.github.io/",
+                    "class": "DepictionTableButtonView"
                 }
                 ,
                 {
-                    "class":"DepictionButtonView",
-                    "text":"Tweak Depiction",
-                    "tintColor":"#1ad4a2",
-                    "action":"https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/2nd/SileoDepiction.json&name=2nd&dev=34306"
+                    "title":"Tweak Depiction",
+                    "tintColor":"#1da1f2",
+                    "action":"https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/2nd/SileoDepiction.json&name=DownloadBar&dev=34306",
+                    "class": "DepictionTableButtonView"
                 },
                 {
-                    "class":"DepictionButtonView",
-                    "text":"Twitter",
-                    "tintColor":"#00CFF8",
-                    "action":"https://twitter.com/cydia05"
+                   
+                    "title":"Twitter",
+                    "tintColor":"#1da1f2",
+                    "action":"https://twitter.com/cydia05",
+                    "class": "DepictionTableButtonView"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "spacing": 16,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "URL": "https://sileotweak.github.io/CydiaIcon.png",
+                    "width": 40,
+                    "height": 40,
+                    "alignment": 1,
+                    "cornerRadius": 3,
+                    "class": "DepictionImageView"
+                  },
+                  {
+                    "markdown": "<small style=\"color: #aaa; font-size: 8pt;\">SileoTweak Repository ©2020-2023</small><style>body { text-align: center; }</style>",
+                    "useRawFormat": true,
+                    "class": "DepictionMarkdownView"
                 }
                 
             ]
         }
     ],
-    "tintColor": "#54A4C4",
+    "tintColor": "#03a5aa",
     "minVersion": "0.1"
 }
