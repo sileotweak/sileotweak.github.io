@@ -94,13 +94,6 @@
                 },
     
                 {
-                    "class": "DepictionSeparatorView"
-                },
-                {  
-                 "class":"DepictionHeaderView",
-                 "title":"Sources"
-                },
-                {
                     "title":"Orginal Repository",
                     "tintColor":"#55B8C5",
                     "action":"https://apt.thebigboss.org/repofiles/cydia/dists/stable" ,
@@ -109,7 +102,7 @@
                 {
                     "title":"Tweak Depiction",
                     "tintColor":"#ffffff",
-                    "action":"https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/Wolf/SileoDepiction.json&name=Wolfr&dev=Michael%20Lema",
+                    "action":"https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/Wolf/SileoDepiction.json&name=Wolf&dev=Michael%20Lema",
                     "class": "DepictionTableButtonView"
                 },
                 {
