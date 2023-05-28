@@ -1,35 +1,54 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://sileotweak.github.io/package/NetworkSpeed/SileoBanner.jpg",
+    "headerImage": "https://sileotweak.github.io/package/ByeHomeBottomBarX/SileoBanner.jpg",
     "tabs": [
         {
             "tabname": "Details",
             "class": "DepictionStackView",
             "views": [
-
+                
                 {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
-                },
-                {
-                    "itemCornerRadius": 12,
-                    "itemSize": "{160, 275.41333333333336}",
-                    "screenshots": [
+                    "itemCornerRadius":8,
+                    "itemSize":"{195, 385}",
+                    "screenshots":[
                         {
-                            "url": "https://sileotweak.github.io/package/ByeHomeBottomBarX/1.png",
-                            "accessibilityText": "Screenshot1"
+                            "accessibilityText":"Screenshot",
+                            "url":"https://sileotweak.github.io/package/ByeHomeBottomBarX/1.png",
+                            "fullSizeURL":"https://sileotweak.github.io/package/ByeHomeBottomBarX/1.png"
                         },
                         {
-                            "url": "https://sileotweak.github.io/package/ByeHomeBottomBarX/2.png",
-                            "accessibilityText": "Screenshot1"
+                            "accessibilityText":"Screenshot",
+                            "url":"https://sileotweak.github.io/package/ByeHomeBottomBarX/1.png",
+                            "fullSizeURL":"https://sileotweak.github.io/package/ByeHomeBottomBarX/1.png"
                         }
-
                     ],
-                    "class": "DepictionScreenshotsView"
+                    "ipad":{
+                        "itemCornerRadius":9,
+                        "itemSize":"{320, 550.8266666666667}",
+                        "screenshots":[
+                            {
+                                "accessibilityText":"Screenshot",
+                                "url":"https://sileotweak.github.io/package/ByeHomeBottomBarX/2.png",
+                                "fullSizeURL":"https://sileotweak.github.io/package/ByeHomeBottomBarX/2.png"
+                            },
+                            {
+                                "accessibilityText":"Screenshot",
+                                "url":"https://sileotweak.github.io/package/ByeHomeBottomBarX/2.png",
+                                "fullSizeURL":"https://sileotweak.github.io/package/ByeHomeBottomBarX/2.png"
+                            }
+                        ],
+                        "class":"DepictionScreenshotView"
+                    },
+                    "class":"DepictionScreenshotsView"
                 },
+
+                {
+                    "class": "DepictionSeparatorView"
+                },
+            
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "# ByeBottonHomeBarX for notched screens tweak \r\n### This tweak makes remove homebar that be showing down the display with more features.",
+                    "markdown": "# ByeHomeBottomBarX\r\n### This tweak makes remove homebar that be showing down the display with more features. \r\n\r\n\u00b7 Worked on iOS 15/rootless.",
                     "useSpacing": true
                 },
                 {
@@ -44,108 +63,87 @@
                     "title": "License",
                     "class": "DepictionTableTextView"
                 },
-                {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
-                },
+                
                  {
                     "text": "SileoTweak",
                     "title": "Maintainer",
                     "class": "DepictionTableTextView"
                 },
                 {
-                    "text": "Julioverne",
+                    "text": "CydiaGeek",
                     "title": "Developer",
                     "class": "DepictionTableTextView"
                 },
+                
                 {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
-                },
-                {
-                    "text": "15.0-15.4.1",
-                    "title": "iOS Version",
+                    "text": "560 KB",
+                    "title": "Installed-Size",
                     "class": "DepictionTableTextView"
                 },
                 {
                     "text": "Tweaks",
                     "title": "Section",
                     "class": "DepictionTableTextView"
-                },{
-                    "text": "57 KB",
-                    "title": "Size",
-                    "class": "DepictionTableTextView"
                 },
                 {
-                    "spacing": 8,
+                    "text": "15.0-15.4.1",
+                    "title": "iOS Version",
+                    "class": "DepictionTableTextView"
+                },
+                
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {  
+                 "class":"DepictionHeaderView",
+                 "title":"Sources"
+                },
+                
+                {
+                   
+                    "title":"Orginal Repository",
+                    "tintColor":"#1da1f2",
+                    "action":"http://apt.thebigboss.org/repofiles/cydia/dists/stable/",
+                    "class": "DepictionTableButtonView"
+                }
+                ,
+                {
+                    "title":"Tweak Depiction",
+                    "tintColor":"#1da1f2",
+                    "action":"https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/ByeHomeBottomBarX/SileoDepiction.json&name=ByeHomeBottomBarX&dev=CydiaGeek",
+                    "class": "DepictionTableButtonView"
+                },
+                {
+                   
+                    "title":"Twitter",
+                    "tintColor":"#1da1f2",
+                    "action":"https://twitter.com/cydia05",
+                    "class": "DepictionTableButtonView"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "spacing": 16,
                     "class": "DepictionSpacerView"
                 },
                 {
-                    "class":"DepictionButtonView",
-                    "text":"Orginal Repository",
-                    "tintColor":"#1ad4a2",
-                    "action":"http://apt.thebigboss.org/repofiles/cydia/dists/stable/"
-                }
-                
-            ]
-        },
-        {
-            "tabname": "Changelogs",
-            "class": "DepictionStackView",
-            "views": [
-                {
-                    "title": "Version 1.2.4-1",
-                    "useBoldText": true,
-                    "useBottomMargin": true,
-                    "class": "DepictionSubheaderView"
-                },
-                {
-                    "markdown": "Whats new? :\r\n\r\n* Initial Release.",
-                    "useSpacing": false,
-                    "class": "DepictionMarkdownView"
-                },
-                {
-                    "markdown": "<small style=\"color: #999; margin-top: -8px;\">2023/5/24</small>",
+                    "URL": "https://sileotweak.github.io/CydiaIcon.png",
+                    "width": 40,
+                    "height": 40,
+                    "alignment": 1,
+                    "cornerRadius": 3,
+                    "class": "DepictionImageView"
+                  },
+                  {
+                    "markdown": "<small style=\"color: #aaa; font-size: 8pt;\">SileoTweak Repository ©2020-2023</small><style>body { text-align: center; }</style>",
                     "useRawFormat": true,
                     "class": "DepictionMarkdownView"
-                },
-                {
-                    "spacing": 20,
-                    "class": "DepictionSeparatorView"
                 }
-            ]
-        },
-        {
-            "tabname": "Contact",
-            "class": "DepictionStackView",
-            "views": [
-                
-                {
-                    "class":"DepictionButtonView",
-                    "text":"Twitter",
-                    "tintColor":"#00CFF8",
-                    "action":"https://twitter.com/cydia05"
-                },
-                {
-                    "class":"DepictionButtonView",
-                    "text":"Telegramt",
-                    "tintColor":"#55B8C5",
-                    "action":"https://t.me/luckyiraq" 
-                },
-                {
-                    "spacing": 40,
-                    "class": "DepictionSeparatorView"
-                },
-                
-                {
-                    "markdown": "<small style=\"color: #aaa; font-size: 8pt;\">MALIK M</small><style>body { text-align: center; }</style>",
-                    "useRawFormat": true,
-                    "class": "DepictionMarkdownView"
-                }   
                 
             ]
         }
     ],
-    "tintColor": "#1db954",
+    "tintColor": "#03a5aa",
     "minVersion": "0.1"
 }
