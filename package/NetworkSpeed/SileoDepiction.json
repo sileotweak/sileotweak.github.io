@@ -56,7 +56,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "# NetworkSpeed\r\n### Showing Internet Speed on stutes bar.\r\n\r\n\r\n Features include:\r\n\r\n* download Speed\r\n* upload Speed\r\n* Gesture Apps\r\n* Gesture motion.",
+                    "markdown": "# NetworkSpeed\r\n### Showing Internet Speed on stutes bar.\r\n\r\n\r\n Features include:\r\n\r\n* Download Speed\r\n* Upload Speed.",
                     "useSpacing": true
                 },
                 {
@@ -109,23 +109,44 @@
                     "class": "DepictionSpacerView"
                 },
                 {
-                    "class":"DepictionButtonView",
-                    "text":"Orginal Repository",
+                    "title":"Orginal Repository",
                     "tintColor":"#1ad4a2",
-                    "action":"https://lclrc.github.io/repo"
+                    "action":"https://lclrc.github.io/repo",
+                    "class": "DepictionTableButtonView"
                 }
                 ,
                 {
-                    "class":"DepictionButtonView",
-                    "text":"Tweak Depiction",
+                    "title":"Tweak Depiction",
                     "tintColor":"#1ad4a2",
-                    "action":"https://sileotweak.github.io/depiction/?NetworkSpeed"
+                    "action":"https://sileotweak.github.io/depiction/?NetworkSpeed",
+                    "class": "DepictionTableButtonView"
                 },
                 {
-                    "class":"DepictionButtonView",
-                    "text":"Twitter",
+                    "title":"Twitter",
                     "tintColor":"#00CFF8",
-                    "action":"https://twitter.com/cydia05"
+                    "action":"https://twitter.com/cydia05",
+                    "class": "DepictionTableButtonView"
+                }
+                ,
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "spacing": 16,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "URL": "https://sileotweak.github.io/CydiaIcon.png",
+                    "width": 40,
+                    "height": 40,
+                    "alignment": 1,
+                    "cornerRadius": 3,
+                    "class": "DepictionImageView"
+                  },
+                  {
+                    "markdown": "<small style=\"color: #aaa; font-size: 8pt;\">SileoTweak Repository ©2020-2023</small><style>body { text-align: center; }</style>",
+                    "useRawFormat": true,
+                    "class": "DepictionMarkdownView"
                 }
                 
             ]
