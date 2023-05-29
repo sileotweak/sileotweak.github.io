@@ -14,7 +14,7 @@
                
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "# LowPowerSleep\r\n### Remove Ads from entry social media apps Facebook, Twitter and Instagram.",
+                    "markdown": "# LowPowerSleep\r\n### Auto Enabe/Disable to LowPower Battery when Screen locked.",
                     "useSpacing": true
                 },
                 {

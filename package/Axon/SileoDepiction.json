@@ -1,52 +1,20 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://sileotweak.github.io/package/Wolf/SileoBanner.jpg",
+    "headerImage": "https://sileotweak.github.io/package/Axon/SileoBanner.jpg",
     "tabs": [
         {
             "tabname": "Details",
             "class": "DepictionStackView",
             "views": [
+                
                 {
-                        "itemCornerRadius":8,
-                        "itemSize":"{195, 385}",
-                        "screenshots":[
-                        {
-                            "accessibilityText":"Screenshot",
-                            "url":"https://sileotweak.github.io/package/Wolf/1.png",
-                            "fullSizeURL":"https://sileotweak.github.io/package/Wolf/1.png"
-                        },
-                        {
-                            "accessibilityText":"Screenshot",
-                            "url":"https://sileotweak.github.io/package/Wolf/2.png",
-                            "fullSizeURL":"https://sileotweak.github.io/package/Wolf/2.png"
-                        }
-                      
-                    ],
-                        "ipad":{
-                        "itemCornerRadius":9,
-                        "itemSize":"{320, 550.8266666666667}",
-                        "screenshots":[
-                            {
-                                "accessibilityText":"Screenshot",
-                                "url":"https://sileotweak.github.io/package/Wolf/1.png",
-                                "fullSizeURL":"https://sileotweak.github.io/package/Wolf/1.png"
-                            },
-                            {
-                                "accessibilityText":"Screenshot",
-                                "url":"https://sileotweak.github.io/package/Wolf/2.png",
-                                "fullSizeURL":"https://sileotweak.github.io/package/Wolf/2.png"
-                            }
-                        ],
-                        "class":"DepictionScreenshotView"
-                    },
-                    "class":"DepictionScreenshotsView"
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
                 },
-                {
-                    "class": "DepictionSeparatorView"
-                },
+               
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "# Wolf (rootless) tweak \r\n### More advanced tweak for facebook.\r\n\r\n\r\n Features include:\r\n\r\n* Download video\r\n* Remove ads\r\n* Freeze chats.",
+                    "markdown": "# Axon\r\n###  Priority Hub redesign grouped notifications for iOS 15 (rootless/Ellekit).",
                     "useSpacing": true
                 },
                 {
@@ -61,48 +29,66 @@
                     "title": "License",
                     "class": "DepictionTableTextView"
                 },
-              
-                 {
+
+             
+                {
                     "text": "SileoTweak",
                     "title": "Maintainer",
                     "class": "DepictionTableTextView"
                 },
+
+
                 {
-                    "text": "Michael lima",
+                    "text": "Nepeta & Baw Appie",
                     "title": "Developer",
                     "class": "DepictionTableTextView"
                 },
+
               
                 {
-                    "text": "15.0-15.4.1",
-                    "title": "Version supported",
+                    "text": "644 KB",
+                    "title": "Installed-Size",
                     "class": "DepictionTableTextView"
                 },
+
+
                 {
                     "text": "Tweaks",
                     "title": "Section",
                     "class": "DepictionTableTextView"
                 },
-               
+
+
+                {
+                    "text": "15.0-15.4.1",
+                    "title": "iOS Version",
+                    "class": "DepictionTableTextView"
+                },
+
+
+                
                 {
                     "class": "DepictionSeparatorView"
                 },
 
+
+                
                 {  
                  "class":"DepictionHeaderView",
                  "title":"Sources"
                 },
-    
+
+
                 {
                     "title":"Orginal Repository",
                     "tintColor":"#1da1f2",
-                    "action":"https://apt.thebigboss.org/repofiles/cydia/dists/stable" ,
+                    "action":"https://alias20.github.io/apt",
                     "class": "DepictionTableButtonView"
-                },
+                },  
                 {
                     "title":"Tweak Depiction",
                     "tintColor":"#1da1f2",
-                    "action":"https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/Wolf/SileoDepiction.json&name=Wolf&dev=Michael%20Lema",
+                    "action":"https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/Axon/SileoDepiction.json&name=Axon&dev=Nepeta%20and%20Baw%20Appie",
                     "class": "DepictionTableButtonView"
                 },
                 {
@@ -111,6 +97,7 @@
                     "action":"https://twitter.com/cydia05",
                     "class": "DepictionTableButtonView"
                 },
+                
 
                 {
                     "class": "DepictionSeparatorView"
@@ -119,6 +106,8 @@
                     "spacing": 16,
                     "class": "DepictionSpacerView"
                 },
+
+
                 {
                     "URL": "https://sileotweak.github.io/CydiaIcon.png",
                     "width": 40,
@@ -132,11 +121,10 @@
                     "useRawFormat": true,
                     "class": "DepictionMarkdownView"
                 }
-                 
                 
             ]
         }
     ],
-    "tintColor": "#006699",
+    "tintColor": "#1a9af3",
     "minVersion": "0.1"
 }
