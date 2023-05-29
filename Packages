@@ -65,6 +65,7 @@ Description: Switching between Appstore Accounts easily.
 Maintainer: SileoTweak <https://sileotweak.github.io>
 Author: subdiox
 Section: Tweaks
+SileoDepiction: https://sileotweak.github.io/package/StoreSwitcher/SileoDepiction.json
 Icon: https://sileotweak.github.io/package/StoreSwitcher/icon.png
 Depiction: https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/StoreSwitcher/SileoDepiction.json&name=StoreSwitcher&dev=subdiox
 Version: 1.0.2
@@ -87,6 +88,7 @@ Version: 0.0.1
 Installed-Size: 208
 Size: 23054
 Filename: ./package/LowPowerSleep/com.hoangdus.lowpowersleep_0.0.1_iphoneos-arm64.deb
+SileoDepiction: https://sileotweak.github.io/package/LowPowerSleep/SileoDepiction.json
 Depiction: https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/LowPowerSleepr/SileoDepiction.json&name=LowPowerSleep&dev=Hoangdus
 MD5: 5a441627888c90248507880b79619d07
 SHA1: 084dbf595eed5ef33dc110f2818dcf7649aa3d25
@@ -104,6 +106,7 @@ Author: Netskao
 Description: Replace LowPower window with notification banner on higher the screen
 Filename: ./package/LowPowerBannerTips/netskao.lowpowerbannertips-rootless_1.1-3_iphoneos-arm64.deb
 size: 14508
+SileoDepiction: https://sileotweak.github.io/package/LowPowerBannerTips/SileoDepiction.json
 Depiction: https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/LowPowerBannerTips/SileoDepiction.json&name=LowPowerBannerTips&dev=Netskao
 MD5: 87cc79c3be11cf1a7b29b640e2be9ec1
 SHA1: 8e1b84a9cd33c24948a205253a0bdf6745523284
@@ -189,6 +192,7 @@ Architecture: iphoneos-arm64
 Version: 1.4-1
 Installed-Size: 644
 Size: 140762
+SileoDepiction: https://sileotweak.github.io/package/Axon/SileoDepiction.json
 Depiction: https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/Axon/SileoDepiction.json&name=Axon&dev=Nepeta%20and%20AppieBaw%20Appie
 MD5: b23cb378d16ef6ed8bb7553fd2af16cf
 SHA1: 0d45fd68eec361771fc13af38d38da365d8013a6
@@ -227,6 +231,7 @@ Filename: ./package/Searchy/com.miro.searchy_1.0.2_iphoneos-arm64.deb
 Version: 1.0.2
 Installed-Size: 168
 Size: 7776
+SileoDepiction: https://sileotweak.github.io/package/Searchy/SileoDepiction.json
 Depiction: https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/Searchy/SileoDepiction.json&name=Searchy&dev=MiRO
 MD5: e6671c025180749c2868642026de85ae
 SHA1: ff5bd11a56f74433fb9ce365a639aadc1e2533c4
