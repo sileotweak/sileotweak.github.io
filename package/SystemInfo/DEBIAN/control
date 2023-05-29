@@ -3,10 +3,12 @@ Name: System Info
 Depends: mobilesubstrate
 Version: 2.7.2-2
 Architecture: iphoneos-arm64
-Description: System information in Settings app > General > About, and other sections. Set boot-nonce, save SHSH, battery info etc
-Depiction: https://arx8x.github.io/depictions/systeminfo.html
+Description: System information in Settings app > General > About, and other sections. ECID, UDID, Battery Cycles ,battery info etc
+Depiction: https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/Axon/SileoDepiction.json&name=SystemInfo&dev=ARX8x
+SileoDepiction: https://sileotweak.github.io/package/SystemInfo/SileoDepiction.json
 Maintainer: SileoTweak
 Author: ARX8x
+Filename: ./package/SystemInfo/xyz.xninja.systeminfo_2.7.2-2_iphoneos-arm64.deb
 Section: Tweaks
 Installed-Size: 750
 Size: 368992 
