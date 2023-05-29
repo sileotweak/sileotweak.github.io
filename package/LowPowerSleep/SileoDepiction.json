@@ -88,7 +88,7 @@
                 {
                     "title":"Tweak Depiction",
                     "tintColor":"#1da1f2",
-                    "action":"https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/v/SileoDepiction.json&name=LowPowerSleep&dev=Hoangdus",
+                    "action":"https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/LowPowerSleep/SileoDepiction.json&name=LowPowerSleep&dev=Hoangdus",
                     "class": "DepictionTableButtonView"
                 },
                 {
