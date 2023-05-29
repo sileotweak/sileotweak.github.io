@@ -30,7 +30,7 @@ Icon: https://sileotweak.github.io/package/NetworkSpeed/icon.png
 Name: NetworkSpeed
 Author: Johnzaro & lclrc
 SileoDepiction: https://sileotweak.github.io/package/NetworkSpeed/SileoDepiction.json
-Depiction: https://sileotweak.github.io/depiction/?NetworkSpeed
+Depiction: https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/NetworkSpeed/SileoDepiction.json&name=NetworkSpeed&dev=Johnzaro%20and%20lclrc
 Size: 504346
 MD5: 7edfbe59ba30eac29260ad5fed542cb1
 SHA1: 3d5349c7f4653265eaaa53343bfc0e055f934669
@@ -60,13 +60,13 @@ Package: com.lenglengyu.storeswitcher
 Name: StoreSwitcher
 Depends: firmware (>= 15), mobilesubstrate
 Architecture: iphoneos-arm64
+Maintainer: SileoTweak
 Description: Switching between Appstore Accounts easily.
 Maintainer: SileoTweak <https://sileotweak.github.io>
 Author: subdiox
 Section: Tweaks
 Icon: https://sileotweak.github.io/package/StoreSwitcher/icon.png
-Depiction: https://repo.lenglengyu.top/packageInfo/storeswitcher2-rootless.html
-Sileodepiction: https://repo.lenglengyu.top/packageInfo/storeswitcher2-rootlesssileo
+Depiction: https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/StoreSwitcher/SileoDepiction.json&name=StoreSwitcher&dev=subdiox
 Version: 1.0.2
 Installed-Size: 424
 Size: 73192
@@ -78,7 +78,7 @@ SHA256: 520209c7dd72ceb183c9630590e3d59fb867756ce498f4434a71591036121c1b
 Package: com.hoangdus.lowpowersleep
 Name: LowPowerSleep
 Description: Auto Enabe to LowPower when Screen locked 
-Maintainer: Hoangdus
+Maintainer: SileoTweak
 Author: Hoangdus
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
@@ -87,14 +87,15 @@ Version: 0.0.1
 Installed-Size: 208
 Size: 23054
 Filename: ./package/LowPowerSleep/com.hoangdus.lowpowersleep_0.0.1_iphoneos-arm64.deb
+Depiction: https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/LowPowerSleepr/SileoDepiction.json&name=LowPowerSleep&dev=Hoangdus
 MD5: 5a441627888c90248507880b79619d07
 SHA1: 084dbf595eed5ef33dc110f2818dcf7649aa3d25
 SHA256: 0acb801878ffa7cb928225ae77c5299d595bdd78ba3c5a0b8098f936932ed696
 
 Package: netskao.lowpowerbannertips.me
 Version: 1.1-3
-Section: Netskao-Tweaks
-Maintainer: Nets
+Section: Tweaks
+Maintainer: SileoTweak
 Depends: firmware (>= 15.0), mobilesubstrate
 Architecture: iphoneos-arm64
 Installed-Size: 200
@@ -103,6 +104,7 @@ Author: Netskao
 Description: Replace LowPower window with notification banner on higher the screen
 Filename: ./package/LowPowerBannerTips/netskao.lowpowerbannertips-rootless_1.1-3_iphoneos-arm64.deb
 size: 14508
+Depiction: https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/LowPowerBannerTips/SileoDepiction.json&name=LowPowerBannerTips&dev=Netskao
 MD5: 87cc79c3be11cf1a7b29b640e2be9ec1
 SHA1: 8e1b84a9cd33c24948a205253a0bdf6745523284
 SHA256: f5156a8b67d3c5245596c1ffc6002fde7b8ccedb6658770b577b92429b5c9ae7
@@ -112,18 +114,19 @@ Package: com.lema.wolf
 Priority: optional
 Depends: mobilesubstrate, firmware (>= 5.0)
 Version: 2.1
+Maintainer: SileoTweak
 Architecture: iphoneos-arm64
 Icon: https://sileotweak.github.io/package/Wolf/icon.png
 Description: The all-in-one tweak for Facebook
 SileoDepiction: https://sileotweak.github.io/package/Wolf/SileoDepiction.json
-Depiction: https://sileotweak.github.io/depiction/?Wolf
+Depiction: https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/Wolf/SileoDepiction.json&name=Wolf&dev=Mikael%20lema
 Maintainer: sileotweak <eng.srg@icloud.com>
 Author: Michael Lema <samewhitetee@gmail.com>
 Section: Tweaks
 Tag: purpose::extension
 Installed-Size: 11674
 Size: 2790372
-dev: lema
+dev: Mikael lema
 Icon: ./Library/Application%20Support/Wolf.bundle/wolf-icon@2x.png
 Filename: ./package/Wolf/Wolf.deb
 MD5:  8ebf41b7ecf8145466ea808cc8e659b5
@@ -178,7 +181,7 @@ Name: Axon
 Depends: mobilesubstrate, firmware (>= 11.0)
 Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
 Description: Priority Hub for iOS 15 (rootless/Ellekit)
-Maintainer: Baw Appie
+Maintainer: SileoTweak
 Author: Nepeta & Baw Appie
 Section: Tweaks
 Filename: ./package/Axon/me.nepeta.axon_1.4-1_iphoneos-arm64.deb
@@ -186,6 +189,7 @@ Architecture: iphoneos-arm64
 Version: 1.4-1
 Installed-Size: 644
 Size: 140762
+Depiction: https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/Axon/SileoDepiction.json&name=Axon&dev=Nepeta%20and%20AppieBaw%20Appie
 MD5: b23cb378d16ef6ed8bb7553fd2af16cf
 SHA1: 0d45fd68eec361771fc13af38d38da365d8013a6
 SHA256: 71820fd713ee6035b24cbcd41841aadc42bd4387332151ec8864435fa2e10ef6
@@ -193,7 +197,7 @@ SHA256: 71820fd713ee6035b24cbcd41841aadc42bd4387332151ec8864435fa2e10ef6
 Package: com.shepgoba.downloadbar13
 Name: DownloadBar13
 Description: Show a progress bar for downloading apps instead! Confirmed worked on iOS 15/rootless.
-Maintainer: alias20
+Maintainer: SileoTweak
 Author: shepgoba
 Section: Tweaks
 Depends: mobilesubstrate
@@ -215,7 +219,7 @@ Depends: firmware (>=13.0), mobilesubstrate
 Depiction: https://miro92.com/repo/depictions/?p=com.miro.searchy
 Description: Adds a search bar into the "Recents" tab in the Phone app.
 Architecture: iphoneos-arm64
-Maintainer: MiRO <tweaks_support@miro92.com>
+Maintainer: Maintainer: SileoTweak
 Author: MiRO <tweaks_support@miro92.com>
 Section: Tweaks
 Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
@@ -223,6 +227,7 @@ Filename: ./package/Searchy/com.miro.searchy_1.0.2_iphoneos-arm64.deb
 Version: 1.0.2
 Installed-Size: 168
 Size: 7776
+Depiction: https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/Searchy/SileoDepiction.json&name=Searchy&dev=MiRO
 MD5: e6671c025180749c2868642026de85ae
 SHA1: ff5bd11a56f74433fb9ce365a639aadc1e2533c4
 SHA256: e0bdf228855847c3b187d8e154fb21e40cf76b770edbb030a1ff8f4c0907dd47
