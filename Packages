@@ -1,3 +1,21 @@
+Package: com.bandarhl.rootless.bhtwitter
+Name: BHTwitter-Rootless
+Description: Awesome tweak for Twitter
+Maintainer: Bandar Alruwaili
+Author: Bandar Alruwaili
+Section: Tweaks
+Depends: mobilesubstrate, ws.hbang.common (>= 2.0)
+Architecture: iphoneos-arm64
+Version: 3.9.1
+Installed-Size: 3752
+Depiction: https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/BHTwitter/SileoDepiction.json&name=BHTwitter&dev=Bander%20Alruwaili
+SileoDepiction: https://sileotweak.github.io/package/BHTwitter/SileoDepiction.json
+Size: 805556
+MD5: a24f8252ce61f425929ccf575706c6bc
+SHA1: 6bdb3fce534aee289c46d169472f03d5723ecd6b
+SHA256: 7049a28a1418835c5b16c2c9f065beb80435d4c0915901033228554bea9a2787
+Filename: ./package/BHTwitter/com.sileotweak.bhtwitter_3.9.1_iphoneos-arm64.deb
+
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wifiqrDp
 Depiction: https://sileotweak.github.io/Sileo-Depiction-WebViews/?json=https://sileotweak.github.io/package/WiFiQR/SileoDepiction.json&name=WiFiQR&dev=KingPuffdaddi
 SileoDepiction: https://sileotweak.github.io/package/WiFiQR/SileoDepiction.json
