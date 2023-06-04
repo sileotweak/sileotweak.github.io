@@ -103,7 +103,7 @@
             
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "# ByeHomeBottomBarX\r\n### This tweak makes remove homebar that be showing down the display with more features. \r\n\r\n\u00b7 Worked on iOS 15/rootless.",
+                    "markdown": "# BHTwitter\r\n### Most Advanced tweak to customize Twitter app UI. \r\n\r\n\u00b7 Worked on iOS 15/rootless.",
                     "useSpacing": true
                 },
                 {
@@ -125,7 +125,8 @@
                     "class": "DepictionTableTextView"
                 },
                 {
-                    "text": "Bandar Alruwaili"Developer",
+                    "text": "Bandar Alruwaili",
+                    "title": "Developer",
                     "class": "DepictionTableTextView"
                 },
                 
